@@ -1,0 +1,136 @@
+/* .report-pre
+{
+    overflow-x: auto;
+    
+} */
+/* .leftside{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  } */
+
+.leftside {
+}
+.searchbtncont {
+  position: absolute;
+  z-index: 2;
+
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.activeBar_jnvt2q {
+  background-color: lightskyblue !important;
+}
+.title_8c7yx4 {
+  font-family: 'Montserrat', 'sans-serif' !important;
+}
+
+.imgavatar {
+  height: 40 !important;
+  width: 40 !important;
+  border-radius: 50 !important;
+  margin-left: 14 !important;
+  border: '1px solid #DFE0EB' !important;
+}
+.imageavatorstyle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50;
+  margin-left: 14;
+  border: '1px solid #DFE0EB';
+}
+.h-container {
+  height: 40;
+}
+.h-cursor-pointer {
+  cursor: 'pointer';
+}
+.h-mainhead {
+  background-color: '#ffff';
+}
+
+.h-name {
+  font-family: 'Montserrat', 'sans-serif';
+  font-style: 'normal';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: '20px';
+  text-align: 'right';
+  letter-spacing: 0.2;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.h-separator {
+  border-left: '1px solid #DFE0EB';
+  margin-left: 32;
+  margin-right: 32;
+  height: 32;
+  width: 2;
+  @media (max-width: 768px) {
+    marginleft: 12;
+        marginRight: 12
+  }
+}
+
+.h-title {
+  font-family: 'Muli';
+  font-style: 'normal';
+  font-weight: 'bold';
+  font-size: 24;
+  line-height: '30px';
+  letter-spacing: 0.3;
+  @media (max-width: 768px) {
+    marginleft: 36;
+  }
+  @media (max-width: 468px) {
+    fontsize: 20;
+  }
+}
+.h-iconStyles {
+  cursor: 'pointer';
+  margin-left: 25;
+  @media (max-width: 768px) {
+    margin-left: 12;
+  }
+}
+.h-search {
+  padding-left: '2.375rem';
+  font-size: '12px';
+  width: 50%;
+}
+.searchbtncont input {
+  margin-left: 28px !important;
+}
+.containerstyle {
+  padding: 5px 12px !important;
+  border-bottom: 1px solid #ccc !important;
+  background-color: #ffff !important;
+}
+.searchstyle {
+  margin-left: 25px !important;
+  font-size: 14px !important;
+}
+.h1_personname {
+  font-size: 12px !important;
+}
+.dropdownstyling .dropdown .dropdown-menu {
+  min-width: 26px !important;
+  font-size: 12px !important;
+  margin-top: 12px !important;
+}
+.dropdownstyling {
+  margin-right: 12px !important;
+}

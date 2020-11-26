@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!--boostrap 4-->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <!--  -->
+
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,300,600,700' rel='stylesheet'
+    type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+
+  <!-- Latest compiled and minified JavaScript -->
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+  <!-- card body -->
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+    integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <!-- card body cdn end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Cal culator styles -->
+
+  <!-- -- -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"/> -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+
+
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,300,600,700" rel="stylesheet"
+    type="text/css" />
+ 
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  
+
+ 
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script type="text/javascript" scr="../src/assets/js/common.js"></script>
+
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css" /> -->
+
+  <script>
+    jQuery(document).ready(function ($) {
+
+      var slidesWrapper = $(".cd-hero-slider");
+
+      //check if a .cd-hero-slider exists in the DOM
+      if (slidesWrapper.length > 0) {
+        var primaryNav = $(".cd-primary-nav"),
+          sliderNav = $(".cd-slider-nav"),
+          navigationMarker = $(".cd-marker"),
+          slidesNumber = slidesWrapper.children("li").length,
+          visibleSlidePosition = 0,
+          autoPlayId,
+          autoPlayDelay = 5000;
+
+        //upload videos (if not on mobile devices)
+        uploadVideo(slidesWrapper);
+
+        //autoplay slider
+        setAutoplay(slidesWrapper, slidesNumber, autoPlayDelay);
+
+        //on mobile - open/close primary navigation clicking/tapping the menu icon
+        primaryNav.on("click", function (event) {
+          if ($(event.target).is(".cd-primary-nav"))
+            $(this).children("ul").toggleClass("is-visible");
+        });
+
+        //change visible slide
+        sliderNav.on("click", "li", function (event) {
+          event.preventDefault();
+          var selectedItem = $(this);
+          if (!selectedItem.hasClass("selected")) {
+            // if it's not already selected
+            var selectedPosition = selectedItem.index(),
+              activePosition = slidesWrapper.find("li.selected").index();
+
+            if (activePosition < selectedPosition) {
+              nextSlide(
+                slidesWrapper.find(".selected"),
+                slidesWrapper,
+                sliderNav,
+                selectedPosition
+              );
+            } else {
+              prevSlide(
+                slidesWrapper.find(".selected"),
+                slidesWrapper,
+                sliderNav,
+                selectedPosition
+              );
+            }
+
+            //this is used for the autoplay
+            visibleSlidePosition = selectedPosition;
+
+            updateSliderNavigation(sliderNav, selectedPosition);
+            updateNavigationMarker(navigationMarker, selectedPosition + 1);
+            //reset autoplay
+            setAutoplay(slidesWrapper, slidesNumber, autoPlayDelay);
+          }
+        });
+      }
+
+      function nextSlide(visibleSlide, container, pagination, n) {
+        visibleSlide
+          .removeClass("selected from-left from-right")
+          .addClass("is-moving")
+          .one(
+            "webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
+            function () {
+              visibleSlide.removeClass("is-moving");
+            }
+          );
+
+        container
+          .children("li")
+          .eq(n)
+          .addClass("selected from-right")
+          .prevAll()
+          .addClass("move-left");
+        checkVideo(visibleSlide, container, n);
+      }
+
+      function prevSlide(visibleSlide, container, pagination, n) {
+        visibleSlide
+          .removeClass("selected from-left from-right")
+          .addClass("is-moving")
+          .one(
+            "webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
+            function () {
+              visibleSlide.removeClass("is-moving");
+            }
+          );
+
+        container
+          .children("li")
+          .eq(n)
+          .addClass("selected from-left")
+          .removeClass("move-left")
+          .nextAll()
+          .removeClass("move-left");
+        checkVideo(visibleSlide, container, n);
+      }
+
+      function updateSliderNavigation(pagination, n) {
+        var navigationDot = pagination.find(".selected");
+        navigationDot.removeClass("selected");
+        pagination.find("li").eq(n).addClass("selected");
+      }
+
+      function setAutoplay(wrapper, length, delay) {
+        if (wrapper.hasClass("autoplay")) {
+          clearInterval(autoPlayId);
+          autoPlayId = window.setInterval(function () {
+            autoplaySlider(length);
+          }, delay);
+        }
+      }
+
+      function autoplaySlider(length) {
+        if (visibleSlidePosition < length - 1) {
+          nextSlide(
+            slidesWrapper.find(".selected"),
+            slidesWrapper,
+            sliderNav,
+            visibleSlidePosition + 1
+          );
+          visibleSlidePosition += 1;
+        } else {
+          prevSlide(
+            slidesWrapper.find(".selected"),
+            slidesWrapper,
+            sliderNav,
+            0
+          );
+          visibleSlidePosition = 0;
+        }
+        updateNavigationMarker(navigationMarker, visibleSlidePosition + 1);
+        updateSliderNavigation(sliderNav, visibleSlidePosition);
+      }
+
+      function uploadVideo(container) {
+        container.find(".cd-bg-video-wrapper").each(function () {
+          var videoWrapper = $(this);
+          if (videoWrapper.is(":visible")) {
+            // if visible - we are not on a mobile device
+            var videoUrl = videoWrapper.data("video"),
+              video = $(
+                '<video loop><source src="' +
+                videoUrl +
+                '.mp4" type="video/mp4" /><source src="' +
+                videoUrl +
+                '.webm" type="video/webm" /></video>'
+              );
+            video.appendTo(videoWrapper);
+            // play video if first slide
+            if (videoWrapper.parent(".cd-bg-video.selected").length > 0)
+              video.get(0).play();
+          }
+        });
+      }
+
+      function checkVideo(hiddenSlide, container, n) {
+        //check if a video outside the viewport is playing - if yes, pause it
+        var hiddenVideo = hiddenSlide.find("video");
+        if (hiddenVideo.length > 0) hiddenVideo.get(0).pause();
+
+        //check if the select slide contains a video element - if yes, play the video
+        var visibleVideo = container.children("li").eq(n).find("video");
+        if (visibleVideo.length > 0) visibleVideo.get(0).play();
+      }
+
+      function updateNavigationMarker(marker, n) {
+        marker.removeClassPrefix("item").addClass("item-" + n);
+      }
+
+      $.fn.removeClassPrefix = function (prefix) {
+        //remove all classes starting with 'prefix'
+        this.each(function (i, el) {
+          var classes = el.className.split(" ").filter(function (c) {
+            return c.lastIndexOf(prefix, 0) !== 0;
+          });
+          el.className = $.trim(classes.join(" "));
+        });
+        return this;
+      };
+    });
+  </script>
+  <script type="text/javascript">
+
+
+    /* ------------------------------------------------------------------------
+     LOADER 
+   ------------------------------------------------------------------------  */
+    jQuery(window).load(function () {
+      // makes sure the whole site is loaded
+      jQuery("#loader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+      jQuery("body").delay(350).css({ overflow: "visible" });
+    });
+
+    /* ------------------------------------------------------------------------ 
+     SMALL HEADER 
+  ------------------------------------------------------------------------ */
+    jQuery(window).scroll(function () {
+      console.log("INside JQuery");
+      var scroll = jQuery(window).scrollTop();
+      if (scroll >= 250) {
+        jQuery("body.fixed-header").addClass("smallHeader");
+        if (scroll >= 350) {
+          jQuery("body.fixed-header").addClass("active");
+        }
+      } else {
+        jQuery("body.fixed-header").removeClass("smallHeader active");
+      }
+    });
+
+    /* ------------------------------------------------------------------------ 
+  Smooth Scroll
+  ------------------------------------------------------------------------ */
+    var $window = $(
+      window,
+      ".cd-testimonials-all .cd-testimonials-all-wrapper"
+    ); //Window object
+
+    var scrollTime = 0.6; //Scroll time
+    var scrollDistance = 355; //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+
+    $window.on("mousewheel DOMMouseScroll", function (event) {
+      event.preventDefault();
+
+      var delta =
+        event.originalEvent.wheelDelta / 125 ||
+        -event.originalEvent.detail / 3;
+      var scrollTop = $window.scrollTop();
+      var finalScroll = scrollTop - parseInt(delta * scrollDistance);
+
+      TweenMax.to($window, scrollTime, {
+        scrollTo: { y: finalScroll, autoKill: true },
+        ease: Power1.easeOut,
+        autoKill: true,
+        overwrite: 5,
+      });
+    });
+
+    /* ------------------------------------------------------------------------ 
+     ITEM COUNTER
+  ------------------------------------------------------------------------ */
+    var itemcount = 0;
+
+    $(".pluss-item").on("click", function () {
+      itemcount++;
+      $(this).parent().find(".total-items").val(itemcount);
+    });
+
+    $(".less-item").on("click", function () {
+      itemcount--;
+      $(this).parent().find(".total-items").val(itemcount);
+    });
+
+    /* ------------------------------------------------------------------------ 
+     ADD REVIEW CUSTOM SCRIPT [open/close]
+  ------------------------------------------------------------------------ */
+    jQuery("#add-review-btn").on("click", function () {
+      jQuery("#add-review-form").slideDown();
+    });
+    jQuery("#review-form-close").on("click", function () {
+      jQuery("#add-review-form").slideUp();
+    });
+
+    /* ------------------------------------------------------------------------ 
+     MOBILE MENU
+  ------------------------------------------------------------------------ */
+    jQuery(".main-nav li a").on("click", function () {
+      jQuery(this).parent("li").find(".dropdown-menu").slideToggle();
+      jQuery(this).find("i").toggleClass("fa-caret-down fa-caret-up");
+    });
+    jQuery("#review-form-close").on("click", function () {
+      jQuery("#add-review-form").slideUp();
+    });
+
+    /* ------------------------------------------------------------------------ 
+     SMOOTH SCROLLING
+  ------------------------------------------------------------------------ */
+    jQuery(".scroll").each(function () {
+      var $this = jQuery(this),
+        target = this.hash;
+      jQuery(this).on("click", function (e) {
+        e.preventDefault();
+        if ($this.length > 0) {
+          if ($this.attr("href") == "#") {
+          } else {
+            jQuery("html, body").animate(
+              {
+                scrollTop: jQuery(target).offset().top - -1,
+              },
+              1000
+            );
+          }
+        }
+      });
+    });
+
+    /* ------------------------------------------------------------------------ 
+     TESTIMONIAL MODEL
+  ------------------------------------------------------------------------ */
+    $(".cd-see-all").on("click", function () {
+      $(".cd-testimonials-all").addClass("is-visible");
+      $("body").css("overflow", "hidden");
+    });
+    $(".cd-testimonials-all .close-btn").on("click", function () {
+      $(".cd-testimonials-all").removeClass("is-visible");
+      $("body").css("overflow-y", "scroll");
+    });
+    $(document).keyup(function (event) {
+      //check if user has pressed 'Esc'
+      if (event.which == "27") {
+        $(".cd-testimonials-all").removeClass("is-visible");
+      }
+    });
+    $(".cd-testimonials-all-wrapper").children("ul").masonry({
+      itemSelector: ".cd-testimonials-item",
+    });
+
+    /* SMOOTH SCROLL FOR TESTIMOVIALS WRAPPER */
+    var $window2 = $(".cd-testimonials-all .cd-testimonials-all-wrapper"); //Window object
+
+    var scrollTime = 0.6; //Scroll time
+    var scrollDistance = 355; //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+
+    $window2.on("mousewheel DOMMouseScroll", function (event) {
+      event.preventDefault();
+
+      var delta =
+        event.originalEvent.wheelDelta / 125 ||
+        -event.originalEvent.detail / 3;
+      var scrollTop = $window2.scrollTop();
+      var finalScroll = scrollTop - parseInt(delta * scrollDistance);
+
+      TweenMax.to($window2, scrollTime, {
+        scrollTo: { y: finalScroll, autoKill: true },
+        ease: Power1.easeOut,
+        autoKill: true,
+        overwrite: 5,
+      });
+    });
+
+    /* ------------------------------------------------------------------------ 
+     SINGLE ITEM CAROUSEL
+  ------------------------------------------------------------------------ */
+    jQuery(".single-item-carousel").owlCarousel({
+      items: 1,
+      animateOut: "fadeOut",
+      navText: ["", ""],
+    });
+
+    /* ------------------------------------------------------------------------ 
+     TWO ITEMS CAROUSEL
+  ------------------------------------------------------------------------ */
+    jQuery(".two-items-carousel").owlCarousel({
+      nav: true,
+      navText: ["", ""],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 1,
+        },
+        979: {
+          items: 2,
+        },
+        1199: {
+          items: 2,
+        },
+      },
+    });
+
+    /* ------------------------------------------------------------------------ 
+     THREE ITEMS CAROUSEL
+  ------------------------------------------------------------------------ */
+    jQuery(".three-items-carousel").owlCarousel({
+      nav: true,
+      navText: ["", ""],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 2,
+        },
+        979: {
+          items: 2,
+        },
+        1199: {
+          items: 3,
+        },
+      },
+    });
+
+    /* ------------------------------------------------------------------------ 
+     FANCYBOX
+  ------------------------------------------------------------------------ */
+    jQuery(".fancybox").fancybox({
+      maxWidth: 600,
+      maxHeight: 800,
+      fitToView: false,
+      width: "100%",
+      height: "70%",
+      autoSize: false,
+      autoHeight: true,
+      closeClick: false,
+      openEffect: "none",
+      closeEffect: "none",
+    });
+
+    /* ------------------------------------------------------------------------ 
+     FANCYBOX MEDIA
+  ------------------------------------------------------------------------ */
+    jQuery(".fancybox-media").fancybox({
+      openEffect: "none",
+      closeEffect: "none",
+      helpers: {
+        media: {},
+      },
+    });
+
+    /* ------------------------------------------------------------------------ 
+     PRODUCT DETAIL
+  ------------------------------------------------------------------------ */
+    jQuery("#product-detail-slider").responsiveSlides({
+      maxwidth: 1000,
+      timeout: 3e3,
+      pager: true,
+      speed: 700,
+    });
+
+    /* ------------------------------------------------------------------------ 
+     VERTICAL TABS 
+  ------------------------------------------------------------------------ */
+    jQuery(".verticalTab").easyResponsiveTabs({
+      type: "vertical",
+      width: "auto",
+      fit: true,
+    });
+
+    /* ------------------------------------------------------------------------ 
+     TOGGLES ICON
+  ------------------------------------------------------------------------ */
+    // jQuery(".toggle-heading").on("click", function () {
+    //   jQuery(this).find("i").toggleClass("fa-minus fa-plus");
+    // });
+
+    /* ------------------------------------------------------------------------ 
+     SEARCH
+  ------------------------------------------------------------------------ */
+    jQuery(".search-trigger").on("click", function () {
+      jQuery(".search-container").fadeIn();
+    });
+    jQuery(".header-search-close").on("click", function () {
+      jQuery(".search-container").fadeOut();
+    });
+
+    /* ------------------------------------------------------------------------ 
+    ANIMATIONS 
+  ------------------------------------------------------------------------ */
+    jQuery(".animate-it").appear();
+    jQuery(document.body).on("appear", ".animate-it", function (
+      e,
+      $affected
+    ) {
+      var fadeDelayAttr;
+      var fadeDelay;
+      jQuery(this).each(function () {
+        if (jQuery(this).data("delay")) {
+          fadeDelayAttr = jQuery(this).data("delay");
+          fadeDelay = fadeDelayAttr;
+        } else {
+          fadeDelay = 0;
+        }
+        jQuery(this)
+          .delay(fadeDelay)
+          .queue(function () {
+            jQuery(this).addClass("animated").clearQueue();
+          });
+      });
+    });
+
+    /* ------------------------------------------------------------------------ 
+     ISOTOPE
+  ------------------------------------------------------------------------ */
+    $(window).load(function () {
+      var $container = $("#cases-container");
+      $container.isotope({
+        filter: "*",
+        animationOptions: {
+          duration: 750,
+          easing: "linear",
+          queue: false,
+        },
+      });
+
+      $(".cases-filter-nav li a").on("click", function () {
+        var selector = $(this).attr("data-filter");
+        $container.isotope({
+          filter: selector,
+          animationOptions: {
+            duration: 750,
+            easing: "linear",
+            queue: false,
+          },
+        });
+        return false;
+      });
+
+      var $optionSets = $(".cases-filter-nav"),
+        $optionLinks = $optionSets.find("a");
+
+      $optionLinks.on("click", function () {
+        var $this = $(this);
+        // don't proceed if already selected
+        if ($this.hasClass("selected")) {
+          return false;
+        }
+        var $optionSet = $this.parents(".cases-filter-nav");
+        $optionSet.find(".selected").removeClass("selected");
+        $this.addClass("selected");
+      });
+    });
+
+    /* ------------------------------------------------------------------------ 
+     RANGE SLIDER [price filter]
+  ------------------------------------------------------------------------ */
+    jQuery("#slider-range").slider({
+      range: true,
+      min: 24781,
+      max: 50000,
+      values: [28781, 45000],
+
+      slide: function (event, ui) {
+        jQuery("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+      },
+
+      stop: function (event, ui) {
+        jQuery("#sort_price_max").val(ui.values[1]);
+        jQuery("#sort_price_min").val(ui.values[0]);
+      },
+    });
+    jQuery("#amount").val(
+      "$" +
+      jQuery("#slider-range").slider("values", 0) +
+      " - $" +
+      jQuery("#slider-range").slider("values", 1)
+    );
+
+    /* ------------------------------------------------------------------------ 
+     FORMS
+  ------------------------------------------------------------------------ */
+
+    function checkcontact(input) {
+      var pattern1 = /^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
+      if (pattern1.test(input)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function validateSubscription() {
+      var footer_name = document.getElementById("subscribe_name");
+      var footer_email_address = document.getElementById("subscribe_email");
+
+      if (footer_name.value == "") {
+        footer_name.className = "input error";
+        return false;
+      } else if (footer_email_address.value == "") {
+        footer_email_address.className = "input error";
+        return false;
+      } else if (checkcontact(footer_email_address.value) == false) {
+        footer_email_address.className = "input error";
+        return false;
+      } else {
+        $.ajax({
+          type: "POST",
+          url: "process.php",
+          data: $("#subscribe_form").serialize(),
+          success: function (msg) {
+            if (msg == "success") {
+              footer_name.className = "input";
+              footer_name.value = "";
+              footer_email_address.className = "input";
+              footer_email_address.value = "";
+
+              $("#subscribe_form").hide();
+              document.getElementById("subscribe_success").style.display =
+                "block";
+              document.getElementById("subscribe_success").innerHTML =
+                "Thank You! We'll contact you shortly.";
+            } else {
+              document.getElementById("subscribe_error").style.display =
+                "block";
+              document.getElementById("subscribe_error").innerHTML =
+                "Oops! Something went wrong while proceeding.";
+            }
+          },
+        });
+      }
+    }
+
+    function removeChecks() {
+      var footer_name = document.getElementById("subscribe_name");
+      var footer_email_address = document.getElementById("subscribe_email");
+
+      if (footer_name.value != "") {
+        footer_name.className = "input";
+      }
+      if (
+        footer_email_address.value != "" &&
+        checkcontact(footer_email_address.value) == true
+      ) {
+        footer_email_address.className = "input";
+      }
+    }
+
+    function validateContact() {
+      var errors = "";
+
+      var contact_name = document.getElementById("contact_name");
+      var contact_email_address = document.getElementById("contact_email");
+      var contact_phone = document.getElementById("contact_phone");
+
+      if (contact_name.value == "") {
+        errors += "Please provide your name.";
+      } else if (contact_email_address.value == "") {
+        errors += "Please provide an email address.";
+      } else if (checkcontact(contact_email_address.value) == false) {
+        errors += "Please provide a valid email address.";
+      } else if (contact_phone.value == "") {
+        errors += "Please provide a Phone No.";
+      }
+
+      if (errors) {
+        document.getElementById("error").style.display = "block";
+        document.getElementById("error").innerHTML = errors;
+        return false;
+      } else {
+        $.ajax({
+          type: "POST",
+          url: "process.php",
+          data: $("#contact_form").serialize(),
+          success: function (msg) {
+            if (msg == "success") {
+              document.getElementById("error").style.display = "none";
+              document.getElementById("contact_name").value = "";
+              document.getElementById("contact_email").value = "";
+              document.getElementById("contact_phone").value = "";
+              document.getElementById("message").value = "";
+              $("#contact_form").hide();
+              document.getElementById("success").style.display = "block";
+              document.getElementById("success").innerHTML =
+                "Thank You! We'll contact you shortly.";
+            } else {
+              document.getElementById("error").style.display = "block";
+              document.getElementById("error").innerHTML =
+                "Oops! Something went wrong while proceeding.";
+            }
+          },
+        });
+      }
+    }
+
+    // main.js
+
+  </script>
+  <script></script>
+  <title>Maalem Financing</title>
+</head>
+
+<body class="fixed-header">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div id="root"></div>
+
+
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>
+
+<!-- main.js -->
+<html>
+
+<html>
+<script>
+
+  (function ($) {
+    "use strict";
+
+
+    /*==================================================================
+    [ Validate ]*/
+    var input = $('.validate-input .input100');
+
+    $('.validate-form').on('submit', function () {
+      var check = true;
+
+      for (var i = 0; i < input.length; i++) {
+        if (validate(input[i]) == false) {
+          showValidate(input[i]);
+          check = false;
+        }
+      }
+
+      return check;
+    });
+
+
+    $('.validate-form .input100').each(function () {
+      $(this).focus(function () {
+        hideValidate(this);
+      });
+    });
+
+    function validate(input) {
+      if ($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
+        if ($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+          return false;
+        }
+      }
+      else {
+        if ($(input).val().trim() == '') {
+          return false;
+        }
+      }
+    }
+
+    function showValidate(input) {
+      var thisAlert = $(input).parent();
+
+      $(thisAlert).addClass('alert-validate');
+    }
+
+    function hideValidate(input) {
+      var thisAlert = $(input).parent();
+
+      $(thisAlert).removeClass('alert-validate');
+    }
+
+
+
+  })(jQuery);
+
+</script>
+
+</html>
+
+<html>
+<script>
+
+</script>
+
+</html>

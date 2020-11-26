@@ -1,0 +1,454 @@
+.loandashboardpadding
+{
+    width: 100%;
+}
+.my-tabs
+{
+    padding: 0px!important;
+}
+
+.tabsstyle
+{
+    height: 300px;
+    
+}
+
+.CircularProgressbar {
+    width: 59%!important;
+    
+}
+
+.loanoverview 
+{
+    padding: 20px 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.loanoverviewstyle 
+{
+    margin: 0% 0%;
+    
+}
+.totallaonamt 
+{
+    font-size: 12px;
+    padding: 4% 8%;
+}
+.totalpaid 
+{
+    font-size: 12px;
+    padding: 4% 18%;
+}
+.interestpaid 
+{
+    font-size: 12px;
+    padding: 4% 21%;
+}
+.tenure 
+{
+    font-size: 12px;
+    padding: 4% 23%;
+}
+.loanaccount
+{
+    padding: 15px 25px;
+    font-size: 14px;
+}
+.loanaccountstyling 
+{
+    /* border-radius: 15px  #ccc; */
+    background-image: url('../../assets/images/loan account.jpg');
+    background-repeat: no-repeat;
+    color:#ffff;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 21px 14px 0 rgba(0, 0, 0, 0.19)
+}
+.validatedate 
+{
+    margin-left: 15%;
+    display:flex;
+}
+.loanamt 
+{
+    font-size: 12px;
+    padding: 4% 8%;
+    font-weight: bold;
+}
+.secondsec 
+{
+    margin-top: 2%;
+}
+.loanpaymentsummary 
+{
+    padding: 10px 25px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+.loanpayable table, th, td {
+    
+    border-collapse: collapse;
+    font-size: 12px;
+    padding: 5px 21px;
+  }
+  .upcomingpay
+  {
+      font-size:12px;
+      font-weight: bold;
+      margin: 0 0 0 4%
+  }
+  .upcomigpaynamt
+  {
+      padding: 10px 8px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+  }
+  .upcmingamt 
+  {
+      font-size: 14px;
+      margin-left: 24%;
+      font-weight: bold;
+  }
+  
+  
+  /* .totalamt table, th, td {
+    
+        border-collapse: collapse;
+        font-size: 12px;
+        padding: 10px 19px;
+      } */
+  
+    .transcationhea 
+    {
+        padding: 10px 20px;
+        border-bottom: 1px solid #ccc;
+        font-weight: bold;
+    }
+    .transcationhistorytable table, th, td 
+    {
+        margin-left: 25px;
+    }
+    .acctpadding 
+    {
+        padding: 3px 25px;
+    }
+    .ourproduct 
+    {
+        padding: 10px 25px;
+        font-weight: bold;
+        border-bottom: 1px solid #ccc;
+        font-size: 14px;
+    }
+    .Component-root-1
+    {
+        height:150!important;
+    }
+    .dfs_emistatus
+    {
+        color: #272D3B;
+        font-size: 14px;
+        margin-left: 2%;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+    .dfs_emistatus
+    {
+        display:flex;
+    }
+    .dfs_buttons
+    {
+        text-align: center;
+        margin-left: 25%;
+    }
+    .def_productcodestyle 
+    {
+        display:flex;
+        margin-left: 5%;
+
+    }
+    .def_productcode
+    {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .def_aal 
+    {
+        font-size: 14px;
+      font-weight: bold;
+      margin-left: 5%;
+      padding-top: 1%;
+    }
+    .def_AAL
+    {
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+   .def_dec 
+   {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-top: 2%;
+   }
+   .def_decvalue
+   {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 2%;
+   }
+
+   .dfs_applyforloan
+   {
+    padding: 15px;
+    background-color: #206fb7;
+    color: #ffff;
+    border-radius: 11px;
+    outline: none!important;
+    font-size: 16px;
+    width: 29%;
+    font-weight: bold;
+    font-family: Montserrat;
+   }
+   .dfs_btnapplyloan
+   {
+       text-align: center;
+       padding:20px 25px
+   }
+    
+   .def_subpro
+   {
+       font-size:12px;
+       margin-left:8%;
+   }
+    .speedmeterstyle
+    {
+
+        display: flex;
+    justify-content: center;
+   margin-top:20%
+        /* margin-left: 9%;
+    
+    margin-right: 5%;
+    margin-top: 10%; */
+
+    }
+    .creditscore
+    {
+        padding: 10px 20px;
+        border-bottom: 1px solid #ccc;
+        font-weight: bold;
+    }
+   
+   
+    
+    .circularprogreebarstyle 
+    {
+        margin-top: 8%;
+    text-align: center;
+    }
+    .emistatusstyle
+    {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px;
+    }
+    .emistatuschart
+    {
+        margin-top:5%
+    }
+    .dfs-productheading
+    {
+       font-size: 12px;
+       font-weight: bold;
+       margin-left:2%;
+       margin-top:2%;
+    }
+    .dfs-productcodestyling
+    {
+        display:flex;
+        padding: 20px 25px;
+    }
+    .dfs-productcodeheading
+    {
+        font-size: 12px;
+        font-weight: bold;
+        
+    }
+    .dfs-productcode 
+    {
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 15%;
+    }
+    .dfs.subproductstyle label
+    {
+        margin-left: 5%;
+    
+    }
+    .dfs.subproductstyle input[type="radio"] {
+
+        margin: 0px !important;
+    }
+    
+
+
+     /* .rwt__tablist:not([aria-orientation="vertical"]) {
+        border: 1px solid #ccc;
+         border-radius:5px;
+
+    }
+     .rwt__tablist:last-child
+    {
+        border-right:none!important;
+    }
+
+    .rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]:after {
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        border-bottom:0px!important;
+        
+       
+    }
+
+    .rwt__tab[aria-selected="true"] {
+        position: relative; 
+        background-color: #206fb7;
+        color:#ffff;
+        font-weight: normal!important;
+       
+    }
+    .rwt__tab[aria-selected="true"]:first-child {
+        border-top-left-radius: 10px!important;
+        border-bottom-left-radius: 10px!important;
+    }
+    .rwt__tab[aria-selected="true"]:last-child {
+        border-top-right-radius: 10px!important;
+        border-bottom-right-radius: 10px!important;
+    }
+
+    .rwt__tab 
+    {
+        padding: 1rem 60px;
+       border-right: 1px solid #ccc!important;
+        font-weight: bold;
+    
+    }
+   #SPER {
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+    .rwt__tab[aria-selected="false"]:hover, .rwt__tab:focus {
+        background-color: none!important;
+    }
+    .tabsstyle .rwt__tab {
+        border-radius: 3px!important;
+        border: 1px solid;
+        padding: 22px 66px;
+    } */
+
+.dfs_ourproduct
+{
+    padding: 10px 5px;
+    font-weight: bold;
+    border-bottom: 1px solid#ccc;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .loandashboardpadding {
+        width: 95vw;
+        margin-top:30px!important;
+    }
+    .dfs_applyforloan {
+        padding: 10px!important;
+        width: 100%!important;
+    }
+    .transcationhistorytable table{
+        width: 80%;
+        margin-left: 25%;
+    }
+    /* .rwt__tab {
+        padding: 1rem 0px;
+        border-right: 1px solid #ccc!important;
+        font-weight: bold;
+        font-size: 12px!important;
+    } */
+    .rwt__tab {
+        padding: 1rem 5px;
+        border-right: 0px solid #ccc!important;
+        font-weight: bold;
+        border: 1px solid #ccc!important;
+    }
+    .rwt__tablist:not([aria-orientation="vertical"]) {
+        border: 0px solid #ccc!important;
+         border-radius:5px;
+    }
+}
+@media  (max-width:768px) {
+    .loandashboardpadding {
+        width: 90vw;
+    }
+    .loanpayable table, th, td {
+        border-collapse: collapse;
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+    /* .rwt__tab {
+        padding: 1rem 19px;
+        border-right: 1px solid #ccc!important;
+        font-weight: bold;
+    } */
+}
+
+
+
+.rwt__tab
+{
+    border:1px solid #ccc!important;
+    padding: 1rem 6rem!important;
+}
+#AAL-tab
+{
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+}
+#SPER-tab
+{
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+.rwt__tablist:not([aria-orientation="vertical"]) {
+    border-bottom:none!important;
+}
+.rwt__tab[aria-selected="true"] {
+    position: relative; 
+    background-color: #206fb7;
+    color:#ffff;
+    font-weight: normal!important;
+   
+}
+.rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]:after {
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    border-bottom:0px!important;
+    
+   
+}
+
+#auto-tab 
+{
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+}
+
+#sme-tab    
+{
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+.L-activeloanstyle 
+{
+    float: right!important;
+}

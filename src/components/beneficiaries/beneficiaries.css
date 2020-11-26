@@ -1,0 +1,63 @@
+.dfs_reapyment input 
+{
+    width: 60%!important;
+    padding: 0px 2px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom:1px solid #ccc;
+    border-radius: 0px!important;
+    height: 19px!important;
+}
+.dfs_reapyment select {
+    all: unset;
+    padding-right: 19px;
+    border-bottom: 1px solid #ccc;
+    background: url('../../assets/images//selectdropdown.jpg') no-repeat right;
+    background-size: 16px;
+    font-size: 13px;
+    width: 70%;
+    height: 19px!important;
+  }
+  .dfs_reapyment label
+  {
+    font-size: 14px!important;
+    font-weight: bold!important;
+    text-align:left!important;
+  }
+  .reapymentstyling 
+  {
+      width: 75vw;
+  }
+  .dfs_topstyling
+  {
+      margin-top: 6%;
+  }
+  .backgroundstyling
+{
+    background-image: url('../../assets/images/bankdetail.jpg');
+    padding:5% 0%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .dfs_reapyment input 
+    {
+         width:100%!important;
+    }
+    .dfs_reapyment label
+    {
+        margin-top: 25px!important;
+    }
+}
+@media (min-width: 565px) and (max-width: 768px) {
+    .dfs_reapyment input {
+        width:100%!important;
+    }
+    .dfs_reapyment label {
+        font-size: 10px!important;
+    }
+}

@@ -1,0 +1,82 @@
+
+
+.login_emailfield input
+{
+      border-radius: 5px;
+    width: 100%;
+    height: 52px;
+    padding:0 10px;
+    font-size: 14px;
+}
+.login_password input
+{
+      border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    height: 52px;
+    padding:0 10px;
+    font-size: 14px;
+}
+.login{
+    
+    top:150px;
+    /* top: 100%; */
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,0%);
+    padding-top: 25px;
+    
+  
+}
+.login label
+{
+    font-size: 17px;
+    font-weight: normal;
+    
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -44px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  .forgetpwd a
+  {
+      color:blue;
+      font-size:14px;
+      
+  }
+  .forgetpwd
+  {
+      padding-left: 125px;
+  }
+  .fa-facebook-square {
+    color: #3b5998;
+  }
+  .socialmediaicon
+  {
+      float: left;
+      width: 100%;
+       display:flex;
+       text-align: center;
+  }
+ .fbcls
+ {
+     padding-right: 30px;
+ }
+ .fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* color: transparent; */
+    -webkit-text-fill-color: transparent;
+  }
+  .loginbtn:focus
+  {
+    outline:none;
+
+  }

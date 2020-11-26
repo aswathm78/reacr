@@ -1,0 +1,19 @@
+.backgcls
+{
+    background-color: #004c90;
+    padding:10px 0px
+}
+.dashboardpoint li
+{
+    list-style: none;
+    font-size: 18px;
+    color: #ffff;
+    /* padding-right: 25px; */
+    padding-top: 15px;
+    margin-right: 25px;
+    
+}
+.dashboardpoint
+{
+    display:flex;
+}

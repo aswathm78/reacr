@@ -1,0 +1,51 @@
+
+.rightdiv
+{
+    float: left;
+    width: 100%;
+}
+.leftdiv
+{
+    float: left;
+    width: 100%;
+}
+.maindiv
+{
+    float: left;
+    width: 100%;
+    
+   
+}
+/* input[type="text"]
+{
+    font-size: 19px;
+} */
+.maindiv .form-control:focus
+{
+  outline-style: none!important;
+}
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+.error-msg
+{
+    color:red;
+}
+.feedbackheading
+{
+    text-align:center;
+}
+.feedbacksubmitbtn
+{
+    text-align: center;
+    float: left;
+    width: 100%;
+    
+}
+.maindiv Label
+{
+    font-size: 19px;
+}

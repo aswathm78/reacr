@@ -1,0 +1,53 @@
+.sidebar0{
+    position: relative;
+    min-width: 25rem;
+    /* padding: 2rem; */
+    display: flex;
+    /* border:3px solid red; */
+}
+.sidebarFixed{
+    flex: 1;
+    /* border:3px solid red; */
+    background-color: whitesmoke;
+    position: fixed;
+    height: 100%;
+    min-width: 23rem;
+    /* width: 15rem;; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sidebarGreeting{
+    flex:.10;
+    margin: auto 0;
+    text-align: center;justify-content: center;align-items: center;
+    /* border:3px solid green; */
+}
+.sidebarMenus{
+    background-color: white;
+    border-top: .2rem solid rgba(0, 0, 0, .3)!important;
+    box-shadow: 3px 5px 11px 1px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .5rem;
+    flex:.80
+}
+.sidebarBottom{
+    flex:.10
+}
+.sidebarMenus > div{
+    padding: 1rem;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;;
+    /* border: 3px solid blue; */
+}
+.sidebarMenus > div:hover{
+    align-items: center;
+    cursor: pointer;;
+    border: .2rem solid rgba(0, 0, 0, .3)!important;
+}

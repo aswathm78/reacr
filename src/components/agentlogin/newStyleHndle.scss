@@ -1,0 +1,177 @@
+.top-image{
+    display: block;
+  }
+  .down-image{
+    display: none;
+  }
+  .englishCssStc{
+    direction: ltr !important;
+    .th-sm{
+        text-align: left !important;
+    }
+    .resend{
+      float: right;
+      margin-top: -29px;
+      padding: 0px 8px;
+      color: white;
+      border-radius: 5px;
+      content: "resend Otp" !important;
+      background: #206FB7;
+    }
+  }
+  .arabicCssStc{
+    .resend{
+      float: left;
+      margin-top: -29px;
+      padding: 0px 8px;
+      color: white;
+      border-radius: 5px;
+      content: "resend Otp" !important;
+      background: #206FB7;
+    }
+      .th-sm{
+          text-align: right !important;
+      }
+    direction: rtl !important;
+    .arr-heading{
+        margin-right: 30px !important;
+    }
+    .side-dropdown{
+        text-align: initial !important;
+    }
+    .down-image{
+        display: block;
+      }
+      .top-image{
+        display: none;
+      }
+      @media (max-width:766px){
+        .down-image{
+            display: none;
+          }
+          .top-image{
+            display: block;
+          }
+    }
+    .new-width-ar{
+        width: 207px !important;
+    }
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+  .card-main-head {
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    min-height: 60px;
+    font-size: 16px;
+  }
+  .table-main-card {
+    background: #fff;
+    overflow: auto;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  @media only screen and (max-width: 767px) {
+    .signin-div {
+      margin-top: -12px !important;
+      width: 100% !important;
+    }
+    .signbackground-img {
+      height: 100% !important;
+    }
+    .card-width-new{
+      width: 100%!important;
+    }
+  }
+  .card-width-new{
+    border-radius: 10px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* //////////////abhinav////////////////// */
+  .new-signup{
+    background: #fff;
+    min-height: 497px;
+    padding: 20px;
+    /* margin-left: -3.5%; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .Firstpage{
+    min-height: 110vh;
+  }
+  @media (min-width:768px) and (max-width: 900px) {
+    .Firstpage{
+      height:  123vh !important;
+    }
+  }
+  @media (min-width:320px) and (max-width: 767px) {
+    .Firstpage{
+      height:  200vh !important;
+    }
+  }
+  .second-page{
+    min-height: 661px;
+  
+  }
+  .sixthpage{
+    min-height: 600px;
+  }
+  @media (min-width:768px) and (max-width: 873px) {
+    .sixthpage{
+      height:  800px !important;
+    }
+  }
+  @media (min-width:320px) and (max-width: 767px) {
+    .sixthpage{
+      height:  133vh !important;
+    }
+    .new-width-signup{
+      width: 100% !important;
+    }
+  }
+  .pop-display-main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    .content-pop{
+      padding: 10px;
+      border-radius: 10px;
+
+      position: relative;
+      background-color: #fff;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: 1px solid rgba(0,0,0,.2);
+      outline: 0;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+  }
+  .background-blur {
+    position: fixed;
+    background: rgba(0, 117, 153, 0.2);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }

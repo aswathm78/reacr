@@ -1,0 +1,202 @@
+.profilepadding
+{
+    width: 75vw;
+}
+.profileheading
+{
+    text-align: center;
+    padding: 7px 35px;
+    border: 1px solid #707070;
+      border-radius: 5px;
+    font-weight: bold;
+    font-family:normal normal bold 35px/43px Montserrat;
+    margin-top: 3%;
+    background-color: #ffff!important;
+}
+.profile_info
+{
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 25px;
+    text-align: left;
+font: normal normal  Montserrat;
+letter-spacing: 0px;
+color: #000000;
+
+opacity: 1;
+    
+
+}
+.consumer_info
+{
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 25px;
+    text-align: left;
+font: normal normal  Montserrat;
+letter-spacing: 0px;
+color: #000000;
+/* text-shadow: 12px 12px 12px #00000029; */
+opacity: 1;
+    
+}
+.maincard
+{
+    padding-top: 25px;
+  
+   
+}
+.cardboxshadow
+{
+    /* box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25); */
+    
+    width:auto;
+    height:200px;
+    border-radius: 15px;
+
+}
+.keystyle
+{
+    font-size: 14px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+.valuestyle
+{
+    font-size:12px;
+    padding-top: 10px;
+    
+    
+}
+.customer_keystyle
+{
+    
+    font-size: 14px;
+    padding-top: 10px;
+    /* text-shadow: 12px 12px 12px #00000029; */
+    font-weight: bold;
+}
+.customer_valuestyle
+{
+    font-size:12px;
+    padding-top: 10px;
+    
+    /* text-shadow: 12px 12px 12px #00000029; */
+}
+.idetifiaction_main
+{
+    float: left;
+    width:100%;
+    margin-top: 46px;
+}
+.identification_heading
+{
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 25px;
+}
+
+
+div.flexcontainer{
+    display: flex;
+    /* set min container height to viewport height */
+}
+.personalkeys .customer_keystyle span
+{
+    display: inline-block;
+    min-width: 124px;
+}
+.personalkeys .keystyle span 
+{
+    display: inline-block;
+    min-width: 101px;
+}
+ 
+div.columns{
+    flex: 1;
+    padding: 10px;
+}
+ 
+div.columns:nth-of-type(2){
+    flex: 2;
+}
+ 
+div.columns:nth-of-type(odd){
+    
+}
+.detail_list
+{
+    padding: 10px 25px;
+}
+.idetify_details
+{
+    font-size: 12px;
+    padding-top: 20px;
+    margin-top:7px!important;
+    
+}
+.identify_list
+{
+    font-size: 14px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.identification_edit
+{
+    float: right;
+}
+.personalkeys
+{
+    margin-left: 6%;
+}
+.updateprofilebtn
+{
+    padding: 11px;
+    background-color: #206fb7;
+    color: #ffff;
+    border-radius:5px;
+    outline: none!important;
+    font-size: 16px;
+    width: 30%;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.dfs_updateBtn 
+{
+    text-align: center;
+    margin-top: 3%!important;
+    margin-bottom: 3%!important;
+}
+@media screen and (min-width: 320px) and (max-width: 640px){
+    .profilepadding
+    {
+        width: 100vw!important;
+    }
+    .profileheading
+    {
+        margin-top:10%!important;
+        /* margin: 0px 25px!important; */
+        margin-left: 25px!important;
+        margin-right: 25px!important;
+    }
+    .profile_info
+    {
+        font-size: 12px!important;
+    }
+    .consumer_info
+    {
+        font-size: 12px!important;
+    }
+
+}
+
+.custom-border{
+    background-color: white;
+    border-top: .2rem solid rgba(0, 0, 0, .3)!important;
+    box-shadow: 1px 1px 3px 1px gray;
+    /* margin:2rem 0 ; */
+}

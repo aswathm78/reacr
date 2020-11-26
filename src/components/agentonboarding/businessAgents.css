@@ -1,0 +1,61 @@
+.agentsTable{
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border-radius: .5rem;
+}
+.agentsTable td , .agentsTable th {
+    padding: .5rem .4rem .5rem 0;
+    border:1px solid #ddd 
+}
+.agentsTable th{
+    background-color: #071013;
+    color:#DFE0E2;
+}
+.agentsTable tbody tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+
+@media(max-width:400px){
+    .agentsTable{
+        
+        border-radius: 0;
+        padding: 1rem 1.5rem;
+    }
+                    .agentsTable tbody tr td:nth-child(even){
+                        background-color: #f5f5f5;
+                    }
+                    .agentsTable tbody tr:nth-child(even){
+                        background-color: white;
+                    }
+    .agentsTable thead{
+        display: none;
+    }
+
+    .agentsTable tr{
+        border: 2px solid #071013;
+        border-radius: .5rem;
+        margin-bottom: 15px;
+    }
+    .agentsTable, .agentsTable tbody, .agentsTable tr, .agentsTable td{
+        display: block;
+        width: 100%;;
+    }
+    .agentsTable td {
+        text-align:right;
+        padding-left: 50%; 
+        position: relative; 
+        
+    }
+    .agentsTable td::before{
+        content:attr(data-label);
+        position: absolute;
+        left: 0;;
+        /* width: 50%; */
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        /* text-align: left !important; */
+    }
+}

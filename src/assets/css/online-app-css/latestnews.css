@@ -1,0 +1,108 @@
+.imgcls
+{
+    width: 100%;
+    float: left;
+}
+
+.videohding
+{
+    border: 1px solid;
+    margin-right: 78px;
+}
+.cardresponsive
+{
+    width: rem;
+}
+.newsrightdiv
+{
+    float: left;
+    width: 100%;
+}
+.newsleftdiv
+{
+    float: left;
+    width: 100%;
+    padding-right: 48px;
+}
+.latestnews
+{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+.headingfst
+{
+    font-size: 15px;
+     color: black;
+     text-align: center;
+     
+}
+.videotitle
+{
+    padding-left: 35px;
+}
+.likemsgdate
+{
+    border-top: 1px solid black;
+}
+.fst
+{
+    border-right: 1px solid black;
+
+    
+}
+.sec
+{
+    border-right:1px solid black;
+    
+}
+.thr
+{
+    
+    border-right: 1px solid black;
+}
+.subdivimg
+{
+    padding-top: 25px;
+}
+.linkcolor a:hover
+{
+    color: black;
+}
+.leftsubimg
+{
+    width: 94%;
+    
+}
+.secsection
+{
+    margin-top: 25px;
+}
+
+.news_faregheart
+{
+    padding-right: 125px;
+    border-right: 1px solid black;
+}
+.hello1
+{
+   float: left;
+   width: 100%;
+  
+}
+.hello2
+{
+    float: left;
+    width: 100%;
+}
+.hello3
+{
+    float: left;
+    width: 100%;
+}
+.cameracls
+{
+    padding-right: 15px;
+}

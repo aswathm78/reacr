@@ -1,0 +1,346 @@
+.referralstyle 
+{
+    width: 75vw;
+}
+.referral_heading
+{
+    padding: 20px 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+.referralcode
+{
+    padding:10px 25px;
+    border: 3px solid;
+    border-style: dotted;
+    margin-top: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+.referral_name
+{
+    font-size: 14px;
+}
+.referral_cashback
+{
+    font-size: 12px;
+
+}
+.referral_avail
+{
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+/* dotted code */
+.list-wrapper {
+  position:relative;
+}
+.list-item-wrapper {
+  margin-top:25px;
+  position:relative;
+}
+.list-bullet {
+  float:left;
+  margin-right:20px;
+  background:#EEEEEE;
+  height:30px;
+  width:30px;
+  line-height:30px;
+  border-radius:100px;
+  font-weight:700;
+  color:#707070;
+  text-align:center;
+}
+.list-item {
+  display:table-row;
+  vertical-align:middle;
+}
+.list-title {
+    font-weight: 500;
+    font-size: 14px;
+}
+.list-text {
+    font-weight:400;
+}
+.red-line {
+  /* background:black; */
+  /* z-index:-1;
+  width:1px; */
+  height:100%;
+  position:absolute;
+  left:15px;
+  border: 1px solid #707070;
+  border-style: dashed;
+}
+.white-line {
+  background:#FFF;
+  z-index:-1;
+  top:0px;
+  width:1px;
+  height:100%;
+  position:absolute;
+  left:15px;
+}
+.referral_eligiblecash
+{
+    padding:20px 25px;
+    font-size: 12px;
+}
+.line 
+{
+    border-left: 2px dotted;
+    height: 35px;
+    margin-left: 23px;
+}
+.referral_style
+{
+    text-align: center;
+    margin-left: 20%;
+}
+.referral_term
+{
+    font-size:15px;
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+    padding:15px 25px
+}
+.termandconditionlist 
+{
+    list-style-type: none;
+    margin-left: 3%;
+}
+ 
+.termandconditionlist ul{ 
+    list-style: none; 
+} 
+  
+.termandconditionlist ul li::before { 
+      
+    /*\25E6 is the CSS Code/unicode for a circle */ 
+    content:close-quote;
+    
+    display: inline-block;  
+    width: 1em; 
+    height: 1em;
+    margin-left: -0.9em; 
+    font-weight: bold; 
+    font-size:1.1rem; 
+    background-color:#E3E3E3;
+  
+    border-radius: 100%;
+    outline-color: black;
+    margin-right: 3%;
+    padding: 10px 10px;
+} 
+.termandconditionlist li  { 
+    margin-top: 1.5em; 
+    font-size: 12px;
+    
+
+
+} 
+
+.referral_alltext 
+{
+ padding:10px 25px;
+}
+.referral_inputfield
+{
+    padding:10px 30px
+}
+
+/* .referralstyle .rwt__tab
+ {
+     
+     font-weight: bold;
+    font-size: 16px;
+    padding:10px 10%
+ }
+ .referralstyle .rwt__tablist:not([aria-orientation="vertical"]) {
+     border: 1px solid!important;
+     border-radius: 10px!important;
+     width: 100%;
+     margin-top: 1%;
+
+ }
+ .referralstyle .rwt__tab:focus
+ {
+     color:#ffff;
+ }
+ .referralstyle .rwt__tab:focus {
+     background-color: #164BB1
+ }
+ .referralstyle .rwt__tab:active {
+    background-color: #164BB1
+} */
+.applyreferralcodeheading
+{
+    padding: 20px 25px;
+    font-size: 14px;
+    border-bottom: 1px solid;
+}
+
+.codeinput input 
+{
+    border:none;
+    border-radius: 0px;
+    width: 100%;
+    padding:0px !important;
+    height:18px;
+    margin-bottom:0px;
+    font-size: 14px;
+    border-bottom: 1px solid;
+}
+.codefield
+{
+    display:flex;
+    padding:59px 25px
+}
+.codebtn
+{
+    padding: 8px 42px;
+    background-color: #004c90;
+    color: #ffff;
+     border-radius:5px;
+    outline: none!important;
+    font-size: 12px;
+}
+.codebutton
+{
+    margin-left: 5%;
+}
+.referearn
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cashback_amountpadding
+{
+    padding: 35px 10px;
+    border: 2px solid;
+    border-style: dotted;
+    width: 66%;
+}
+.cashback
+{
+  font-size:12px;
+  text-align: center;
+}
+.cashbackamount
+{
+   font-size: 12px;
+   text-align: center;
+   font-weight: bold;
+}
+.cashbackspace
+{
+    display:flex;
+    padding: 15px 25px;
+}
+.offertext
+{
+    font-size: 12px;
+    margin-left:5%;
+}
+.cashbackrefer
+{
+    margin-left: 32%;
+}
+.coupan
+{
+    display:flex;
+
+}
+.termandconditionlist ul li 
+{
+    -webkit-appearance: none;
+    /* width: 20px;
+    height: 20px; */
+    /* border-radius: 50%; */
+    outline: black;
+    /* border: 2px solid blue; */
+}
+.referbackgroundstyling
+{
+    background-image: url('../../assets/images/referbanner.jpg');
+    padding:5% 0%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.referbtninref
+{
+    padding: 15px;
+    background-color: #206fb7;
+    color: #ffff;
+      border-radius: 5px;
+    outline: none!important;
+    font-size: 12px;
+    width: 30%;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .referralstyle {
+        width: 90vw;
+    }
+    .red-line 
+    {
+        height:89%!important;
+    }
+    .applycolpadding  
+    {
+        padding:0px 0px!important;
+    }
+    .applynow input
+    {
+        margin-top:25px!important;
+    }
+    .termandconditionlist 
+    {
+        margin: 0px 10%!important;
+    }
+    .referbtninref {
+        padding: 4px;
+        background-color: #206fb7;
+        color: #ffff;
+          border-radius: 5px;
+        outline: none!important;
+        font-size: 15px;
+    
+        font-weight: bold;
+        font-family: Montserrat;
+        width: 56%!important;
+    }
+  
+}
+
+@media (min-width: 565) and (max-width: 768px) {
+    .referralstyle
+    {
+        width: 90vw!important;
+    }
+}
+
+.rwt__tab
+{
+    border:1px solid #ccc!important;
+    padding: 1rem 6rem!important;
+}
+#refer-tab
+{
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    padding: 1rem 19rem!important;
+}
+#apply-tab
+{
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    padding: 1rem 25rem!important;
+}

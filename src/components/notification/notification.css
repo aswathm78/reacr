@@ -1,0 +1,51 @@
+.notification_heading
+  {
+    text-align: center;
+    padding:10px 25px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+     border-radius:5px;
+    background-color: #ffff;
+  }
+  .notification_alltxt
+  {
+    display:flex;
+    padding: 0px 36px;
+    padding-top: 25px;
+  }
+  .notification_txt
+  {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 12px;
+    margin-left: 12px;
+  }
+  .notification_subtxt
+  {
+    font-size: 12px;
+    margin-left: 12%;
+    margin-bottom: 4%;
+  }
+  .notificationmarginstyle 
+  {
+      margin: 0% 18%;
+      margin-top: 5%;
+     
+  }
+  .notificationcardstyle
+  {
+   border-radius:5px;
+    margin: 5% 18%;
+    border: 1px solid #707070;
+  }
+
+  .noti-backgroundstyling
+{
+    background-image: url('../../assets/images/notificationbackbanner.png');
+    padding:5% 0%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}

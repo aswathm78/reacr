@@ -1,0 +1,162 @@
+.settingpgpadding
+{
+    width: 72vw;
+}
+.changepwd
+{
+    padding: 10px 20px;
+    border-bottom: 1px solid #707070;
+    font-weight: bold;
+    font-size: 14px;
+}
+.mobileenter
+{
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.settingstyle
+{
+     border-radius:5px;
+    margin: 10% 18%;
+    border: 1px solid #707070;
+}
+.getotpnum
+{
+display: flex;
+padding: 0px 35px;
+}
+.getotpnum input
+{
+    width: 50%!important;
+  padding: 12px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom:1px solid #707070;
+  border-radius: 0px!important;
+  height: 20px!important;
+}
+.getotp
+{
+    padding: 10px;
+    background-color: #004c90;
+    color: #ffff;
+      border-radius: 5px;
+    outline: none!important;
+    width: 51%;
+    font-size: 12px;
+}
+.getotpbtn
+{
+    padding: 19px 32px;
+}
+.otpstyle input {
+    padding-left: 15px;
+    letter-spacing: 42px;
+    border: 0;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 320px;
+
+  }
+  .otpstyle
+  {
+      padding: 20px 20px;
+  }
+  /* .getotpbtn
+  {
+    padding: 20px 20px;
+
+  } */
+  .passfield input
+  {
+    width: 75%!important;
+    padding: 12px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom:1px solid #707070;
+    border-radius: 0px!important;
+    height: 20px!important;
+  }
+  .passfield
+  {
+    padding: 20px 25px;
+  }
+  .verifybtn
+  {
+      padding:20px 25px;
+  }
+  .passwordchanged
+  {
+      text-align: center;
+      border-bottom: 1px solid;
+  }
+  .passwordchanged
+  {
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+  .pwd_changedimg
+  {
+    text-align: center;
+    padding-top:20px;
+    font-weight:bold;
+  }
+  .pwdchanged_txt
+  {
+    text-align: center;
+    color:#0F0F0F;
+    font-weight:bold;
+    font-size: 14px;
+    margin-bottom: 7%;
+  }
+  .notification_heading
+  {
+    text-align: center;
+    padding:20px 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  .notification_alltxt
+  {
+    display:flex;
+    padding: 0px 36px;
+    padding-top: 25px;
+  }
+  .notification_txt
+  {
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 12px;
+    margin-left: 12px;
+  }
+  .notification_subtxt
+  {
+    font-size: 12px;
+    margin-left: 12%;
+    margin-bottom: 4%;
+  }
+  /* service request */
+  .service_heading
+  {
+    padding:20px 25px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+  }
+  .servicerequest_list li
+  {
+  list-style-type: none;
+  }
+  .servicerequest_list{
+    padding: 20px 25px;
+    font-size: 14px;
+  }

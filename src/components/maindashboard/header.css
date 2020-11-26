@@ -1,0 +1,39 @@
+.h-iconStyles > .fa, .h-iconStyles > .fas{
+    cursor: pointer;
+
+}
+.header-search{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+    border:1px solid lightgray;
+    flex:1
+}
+.header-search-reverse{
+    flex-direction: row-reverse;
+    
+
+}
+.header-search > input{
+    flex: 1;
+    margin-right: 0!important;
+    padding-right: 1rem;
+    border-radius: 0 99px 99px 0;
+}
+.MuiSvgIcon-root{
+    font-size: 2rem;
+    color:gray;
+}
+.MuiSvgIcon-root:hover{
+    color: #2e81f4;
+}
+.h-iconStyles i {
+    color: gray;
+}
+.h-iconStyles i:hover {
+    color: #2e81f4;
+}
+
+ /* input{
+    text-align: right!important;
+}  */

@@ -1,0 +1,267 @@
+.dfs-L-input {
+  margin-top: 5% !important;
+}
+.dfs-L-input input {
+  width: 40% !important;
+  padding: 0px 2px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px !important;
+  height: 19px !important;
+}
+
+.dfs-LL-input input {
+  width: 80% !important;
+  padding: 0px 2px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px !important;
+  height: 19px !important;
+}
+.dfs-L-input label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  /* text-align: left !important; */
+}
+.dfs-LL-input label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  /* text-align: left !important; */
+}
+.dfs-LL-heading {
+  text-align: center;
+  padding: 25px;
+}
+.loan-acceptance-txt h2 {
+  font-weight: bold !important;
+}
+.dfs-L-3padding {
+  display: flex;
+}
+.dfs-L-offerletter {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0px 0px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.dfs-L-buttonstyle {
+  padding: 5px 25px;
+  background-color: #206fb7;
+  color: #ffff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.dfs-L-loantxtpadding {
+  padding: 0px 25px;
+}
+.dfs-L-heading {
+  font-size: 14px;
+  font-weight: bold;
+}
+.textbar-or {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin: 5% 6%;
+  font-size: 10px;
+}
+
+.textbar-or span {
+  background-color: #fff;
+  padding: 0 10px;
+}
+.dfs-L-completeprocess {
+  padding: 10px 30px;
+  font-size: 16px;
+}
+.dfs-L-upload {
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.dfs-L-accept {
+  font-size: 12px;
+  padding: 0px 30px;
+}
+ .dfs-L-justifytext
+ {
+     font-size: 12px;
+     justify-content: center;
+     padding: 0px 30px;
+ }
+.dfs-L-savesubmitstlye {
+  display: flex;
+  position: absolute;
+  left: 65%;
+}
+ .dfs-L-wisardSaveStyle
+ {
+     display:flex;
+     left:65%
+ }
+.dfs-L-btnsave {
+  padding: 8px 43px;
+  background-color: #206fb7;
+  color: #ffff;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.dfs-L-btnsubmit {
+  padding: 8px 43px;
+  background-color: #206fb7;
+  color: #ffff;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.loan-acceptance-txt h4 {
+  padding: 15px 25px;
+}
+.dfs-L-left-padding {
+  margin-top: 10%;
+}
+.dfs-L-simpleAgree {
+  font-size: 22px;
+  text-align: center;
+  background-color: lightyellow;
+  font-weight: bold;
+}
+.otpdocumentstyle {
+  position: absolute;
+  left: 20%;
+  right: 50%;
+  background-color: #f7f7f7;
+}
+.e-sign-txt {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.dfs-L-esign_input input {
+  border-radius: 0px !important;
+  width: 92% !important;
+  padding: 12px !important;
+  height: 41px !important;
+  background-color: #e6e6e6;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.dfs-L-esign_input {
+  padding: 0px 20px;
+  margin-top: 15%;
+}
+.dfs-L-seconds {
+  position: absolute;
+  left: 66%;
+  font-size: 12px;
+  color: blue;
+}
+.e-signoptbuttonstyle {
+  text-align: center;
+  margin: 15%;
+}
+.eisignin-otp {
+  padding: 8px 40px;
+  background-color: #206fb7;
+  color: #ffff;
+  width: 65%;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.dfs-L-consumer-btn {
+  padding: 8px 40px;
+  background-color: #206fb7;
+  color: #ffff;
+  width: 15%;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.dfs-L-customerdetails {
+  font-weight: bold;
+}
+.dfs-L-Onboardingcompletetxt {
+  text-align: center;
+  margin-top: 5%;
+}
+.dfs-L-successfullymsg {
+  text-align: center;
+}
+.dfs-L-customerdetails h5 {
+  font-weight: bold;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.dfs-L-allfileds {
+}
+.inlinestyle {
+  display: flex;
+  margin-left: 20%;
+  padding-top: 10px;
+}
+.dfs-L-value {
+  margin-left: 5%;
+  font-weight: bold;
+}
+.dfs-L-value span {
+  display: inline-block;
+  min-width: 120px;
+}
+.dfs-LL-sectionofst {
+  margin-top: 3%;
+}
+.acceptrejectbtn {
+  display: flex;
+  margin-top: 7%;
+}
+.dfs-accept-btn {
+  position: absolute;
+  left: 5%;
+  padding: 10px 25px;
+  background-color: #206fb7;
+  color: #ffff;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.dfs-reject-btn {
+  position: absolute;
+  left: 75%;
+  padding: 10px 25px;
+  background-color: #206fb7;
+  color: #ffff;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.dfs-L-loanaggrementtxt {
+  width: 100%;
+  overflow: scroll;
+}
+.dfs-L-checkboxstyle {
+  display: flex;
+  margin-top: 3%;
+}
+.dfs-L-checkboxstyle label {
+  margin: 0px !important;
+  margin-left: 2% !important;
+  font-size: 16px !important;
+  color: #ccc;
+}
+.dfs-L-checkboxstyle input {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.dfs-L-simpleAgree {
+  font-size: 22px;
+  text-align: center;
+  background-color: lightyellow;
+  font-weight: bold;
+}

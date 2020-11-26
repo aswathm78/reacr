@@ -1,0 +1,58 @@
+.ticketpadding
+{
+    width:75vw; 
+   
+}
+.ticket_backgimg
+{
+    background-image: url('../../assets/images/messages.jpg');
+    background-repeat: no-repeat;
+   
+}
+.ticket_table
+{
+    padding: 0% 8%;
+    padding-top: 5%;
+}
+.ticket_table table
+{
+    border: 1px solid black;
+}
+.ticket_heading
+{
+    font-weight: bold;
+    font-size:"18px";
+    border-bottom: 1px solid #ccc;
+    padding: 26px 45px;
+}
+.ticket_table .table td{
+    width:10%;
+    height:10%;
+    text-align: center;
+    
+}
+.ticket_table .table th{
+    width:10%;
+    height:10%;
+    text-align: center;
+    
+}
+td:last-child
+{
+    color:black;
+}
+.ticket_table  .table
+{
+ 
+   margin-bottom: 0px !important;
+}
+.ticket_pagination
+{
+    padding-left: 11%;
+    font-size: 16px;
+    padding-top: 1%;
+}
+.ticket_paginationnum
+{
+    /* float: right; */
+}

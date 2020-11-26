@@ -1,0 +1,401 @@
+///////////////////////COMMON CSS/////////////////////////
+.row{
+    width: auto !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+.mb-30{
+    margin-bottom: 30px !important;
+}
+/////////////////////////////////////////////////////////////
+////////////////////LTR CSS/////////////////
+/////////////////////////////////////////////////////////////
+.ltr-css{
+    direction: ltr;
+    .input-wrapper{
+        position:relative;
+        margin-bottom: 15px;
+        label{
+            color:#bbb;
+            font-size:11px;
+            text-transform:uppercase;
+            position:absolute;
+            z-index:2;
+            left: 10px;
+            top: 20px;
+            padding:0 2px;
+            pointer-events:none;
+            background-color:#ffffff;
+            transition:transform 100ms ease;
+            transform:translateY(-35px);
+        }
+        input ,select{
+            outline:none;
+            border:1px solid #bbb;
+            padding:10px;
+            border-radius:10px;
+            background-color: #ffffff !important;
+            position:relative;
+            height: auto !important;
+            margin: 10px 0;
+            text-align: left !important;
+            &:invalid + label{
+                // transform:translateY(0)
+            }  
+            &:focus{
+                border-color:#1c659d !important;
+            }
+            &:valid + label{
+                color: #1c659d;
+            }
+            &:valid{
+                border-color:#1c659d !important;
+            }
+        }
+        input:focus + label{
+            color:#1c659d;
+            transform:translateY(-35px)
+        }                   
+    }
+    .common-btn{
+        width: fit-content;
+        background-color: #1c659d;
+        padding: 8px 20px;
+        color: #fff;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    ////////////////////////HEADER CSS////////////////////////
+.head-style{
+    -webkit-box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+    padding: 15px;
+    height: 105px;
+    background-color: #eee;
+    z-index: 9;
+    h6{
+        padding: 2.5rem 0;
+        font-weight: bold;
+        color: #1c659d;
+        float: right;
+    }
+    .glyphicon{
+        margin-bottom: 5px;
+        vertical-align: middle;
+    }
+}
+////////////////////////SIDE NAV CSS//////////////////////
+.side-nav{
+    // position: fixed;
+    padding: 20px 0px;
+    border-right: solid 1px #ccc;
+    height: calc(100vh - 105px);
+    background-color: #ffffff ;
+    .menu-list{
+        display: inline-flex;
+        margin-bottom: 15px;      
+    }
+    h6, a{
+        cursor: pointer;
+    }
+    .menu-list-dropdown{
+        margin-bottom: 10px;
+        margin-left: 30px;
+        display: none;
+        a{
+            line-height: 2;
+            font-size: 16px;
+            color: #000000;
+            &:hover, &:focus, &:active{
+                color: #1c659d !important;
+                font-weight: bold;
+                outline: 0 !important;
+                margin-left: 10px;
+            }
+        }
+    }
+    .green{
+        &, h6{
+            color: green;
+            font-weight: bold;
+        }
+    }
+    .glyphicon{
+        margin-right: 10px;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    h6{
+        line-height: 2;
+        font-size: 16px;
+    }
+}
+/////////////////////////// OWNER VERIFICATION////////////////
+.owner-verification{
+    background-color: #ffffff;
+    font-size: 15px;
+    .verification-panel{
+        background-image: url('../../assets/images/maalem.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: calc(100vh - 105px);
+        .card{
+            max-width: 330px;
+            margin: 15% auto;
+            text-align: center;
+            border-radius: 10px;
+            -webkit-box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+            box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+            .card-body{
+                padding: 20px;   
+            }
+        }
+    } 
+}
+///////////////////////////ADD ADMIN ////////////////////////
+.add-admin-panel, .add-agent-panel {
+    padding-top: 15px;
+    .btn-row{
+        margin-top: 30px;
+    }
+    .save{
+        float: left;
+    }
+    .add-row{
+        margin-bottom: 15px;
+        a{
+            color: #1c659d !important;
+            .plus-sign{
+                font-size: 30px;
+                vertical-align: middle;
+            }
+        }
+    }
+    .btn-group{
+        float: right;
+    }
+    .btn-group, .common-btn{
+        direction: rtl;
+    }
+    .common-btn{
+        margin: 10px;
+        .glyphicon{
+            vertical-align: middle;
+        }
+    }
+    .input-wrapper{
+        input{
+            border-radius: 0 !important;
+            border: 0;
+            border-bottom: 1px solid #bbb;
+            background-color: #f1f0f0 !important;
+        }
+        label{
+            background-color:transparent !important;
+        }
+    }
+}
+//////////////////////////MEDIA QUERY///////////////////////
+@media (max-width:768px){
+    .side-nav, .verification-panel{
+        height: auto !important;
+    }
+    .side-nav{
+        border: 0 !important;
+    }
+}
+}
+/////////////////////////////////////////////////////////////
+////////////////////RTL CSS/////////////////
+/////////////////////////////////////////////////////////////
+.rtl-css{
+    direction: rtl;
+    .input-wrapper{
+        position:relative;
+        margin-bottom: 15px;
+        label{
+            color:#bbb;
+            font-size:11px;
+            text-transform:uppercase;
+            position:absolute;
+            z-index:2;
+            right: 10px;
+            top: 20px;
+            padding:0 2px;
+            pointer-events:none;
+            background-color:#ffffff;
+            transition:transform 100ms ease;
+            transform:translateY(-35px);
+        }
+        input{
+            outline:none;
+            border:1px solid #bbb;
+            padding:10px;
+            border-radius:10px;
+            background-color: #ffffff !important;
+            position:relative;
+            height: auto !important;
+            margin: 10px 0;
+            text-align: right !important;
+            &:invalid + label{
+                // transform:translateY(0)
+            }  
+            &:focus{
+                border-color:#1c659d !important;
+            }
+            &:valid + label{
+                color: #1c659d;
+            }
+            &:valid{
+                border-color:#1c659d !important;
+            }
+        }
+        input:focus + label{
+            color:#1c659d !important;
+            transform:translateY(-35px)
+        }                   
+    }
+    .common-btn{
+        width: fit-content;
+        background-color: #1c659d;
+        padding: 8px 20px;
+        color: #fff;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    ////////////////////////HEADER CSS////////////////////////
+    .head-style{
+        -webkit-box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+        box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+        padding: 15px;
+        height: 105px;
+        background-color: #eee;
+        z-index: 9;
+        h6{
+            padding: 25px 0;
+            font-weight: bold;
+            color: #1c659d;
+            float: left;
+        }
+        .glyphicon{
+            margin-bottom: 5px;
+            vertical-align: middle;
+        }
+    }
+    ////////////////////////SIDE NAV CSS//////////////////////
+    .side-nav{
+        padding: 20px 0px;
+        border-right: solid 1px #ccc;
+        height: calc(100vh - 105px);
+        background-color: #ffffff ;
+        .menu-list{
+            display: inline-flex;
+            margin-bottom: 15px;      
+        }
+        h6, a{
+            cursor: pointer;
+        }
+        .menu-list-dropdown{
+            margin-bottom: 10px;
+            margin-right: 30px;
+            display: none;
+            a{
+                line-height: 2;
+                font-size: 16px;
+                color: #000000;
+                &:hover, &:focus, &:active{
+                    color: #1c659d !important;
+                    font-weight: bold;
+                    outline: 0 !important;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .green{
+            &, h6{
+                color: green;
+                font-weight: bold;
+            }
+        }
+        .glyphicon{
+            margin-left: 10px;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+        h6{
+            line-height: 2;
+            font-size: 16px;
+        }
+    }
+    /////////////////////////// OWNER VERIFICATION////////////////
+    .owner-verification{
+        background-color: #ffffff;
+        font-size: 15px;
+        .verification-panel{
+            background-image: url('../../assets/images/maalem.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: calc(100vh - 105px);
+            .card{
+                max-width: 330px;
+                margin: 15% auto;
+                text-align: center;
+                border-radius: 10px;
+                -webkit-box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+                box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgba(60,64,67,.3), 0 1px 3px 1px rgba(60,64,67,.15);
+                .card-body{
+                    padding: 20px;
+                }
+            }
+        } 
+    }
+    ///////////////////////////ADD ADMIN ////////////////////////
+    .add-admin-panel, .add-agent-panel {
+        padding-top: 15px;
+        .btn-row{
+            margin-top: 30px;
+        }
+        .add-row{
+            margin-bottom: 15px;
+            a{
+                color: #1c659d !important;
+                .plus-sign{
+                    font-size: 30px;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .save{
+            float: left;
+        }
+        .common-btn{
+            margin: 10px;
+            .glyphicon{
+                vertical-align: middle;
+            }
+        }
+        .input-wrapper{
+            input{
+                border-radius: 0 !important;
+                border: 0;
+                border-bottom: 1px solid #bbb;
+                background-color: #f1f0f0 !important;
+            }
+            label{
+                background-color: transparent !important;
+            }
+        }
+    }
+    //////////////////////////MEDIA QUERY///////////////////////
+    @media (max-width:768px){
+        .side-nav, .verification-panel{
+            height: auto !important;
+        }
+        .side-nav{
+            border: 0 !important;
+        }
+    }
+}

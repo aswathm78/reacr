@@ -1,0 +1,338 @@
+.loancards
+{
+    
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.productcards
+{
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .card {
+    min-height: 225px;
+    
+} */
+
+.loancardleft
+{
+    border-left:6px solid #2fff79;
+
+}
+.servicereuest
+{
+    display:flex;
+}
+.calculatorbtn
+{
+    display:flex;
+    margin-top: 10%;
+    float: left;
+}
+.eligilibilitybtn
+{
+    font-size: 12px !important;
+    border-top: 1px solid;
+    color:#1169a1 ;
+    padding: 10px 12px;
+}
+
+.personacc
+{
+    font-size: 16px;
+    padding-top: 12px;
+
+}
+.smeloanstext
+{
+    font-size: 14px;
+    padding-left: 25px;
+}
+.viewalltxt
+{
+    padding-left: 125px;
+    font-size: 16px;
+}
+.selectpicker
+{
+    all: unset;
+    padding-right: 15px;
+    border-bottom: 1px solid;
+    background: url(https://www.charbase.com/images/glyph/9662) no-repeat right;
+    background-size: 16px;
+    color:block;
+    font-size: 16px;
+}
+.autoloanheading
+{
+    
+    /* text-align: center; */
+    padding-top: 4px;
+    padding-left: 12px;
+ 
+}
+.aircon
+{
+    font-size: 12px;
+    color:block;
+    text-align: center;
+    padding:1px 13px;
+}
+.loanfnacc
+{
+    display:flex;
+}
+.loannfin
+{
+    font-size: 17px;
+}
+.account
+{
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.accholdername
+{
+    font-size: 14px;
+}
+
+.holderamo
+{
+    
+    font-size:14px;
+}
+.test:after {
+    content: '\2807';
+    font-size: 25px;
+    padding-left: 30px;
+    
+    }
+    .amodot
+    {
+        display:flex;
+    }
+.detailsacc
+{
+    padding-top: 12px;
+}
+.vehicleloan
+{
+    font-size: 14px;
+    padding-left: 25px;
+}
+.accountoption select
+{
+    all: unset;
+    padding-right: 125px!important;
+    border-bottom: 1px solid;
+    background: url(https://www.charbase.com/images/glyph/9662) no-repeat right;
+    background-size: 16px;
+    color: black;
+    font-size: 14px;
+}
+.calbtn
+{
+    display:flex;
+}
+.namecls
+{
+    font-size: 12px;
+    font-weight: 200;
+}
+.loanfin
+{
+    border-left: 5px solid #206fb7;
+}
+.accdetails
+{
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.accName
+{
+    font-size:14px
+}
+.accamount
+{
+    font-size: 14px;
+}
+.eligibilitycal
+{
+   
+}
+.allcontent
+{
+    padding-left: 12px;
+}
+.servicecards
+{
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 150px;
+}
+.viewallbtn
+{
+    font-size: 14px;
+    padding-left: 12px;
+    color: blue;
+
+}
+
+.installmentbtn
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+    padding: 12px 6px;
+    border: 1px solid;
+    color:black;
+}
+.twowheeler
+{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center;
+}
+.autofleet
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center;
+}
+.stdauto
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center;
+}
+.airconditioner
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center;
+}
+.television
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.refrigerator
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.washingmachine
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.performance
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.subdes
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.Emergencyloan
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.incomegenloan
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.Individual
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.midterm
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 0px;
+    text-align: center; 
+}
+.bodypadd
+{
+    border-left:4px solid red;
+}
+
+.loans
+{
+    font-size:16px;
+    
+}
+.selectoption select {
+    all: unset;
+    padding-right: 63px;
+    border-bottom: 1px solid;
+    background: url(https://www.charbase.com/images/glyph/9662) no-repeat right;
+    background-size: 16px;
+    color:block;
+    font-size: 14px;
+    margin-left: 29px;
+}
+.accName
+{
+    font-size:12px;
+    padding-top: 12px;
+}
+.installmentbtnn
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+    padding: 12px 6px;
+    border: 1px solid;
+    color: black;
+}
+
+.smeloanstext
+{
+    padding-left: 0px;
+}
+
+  .loanandfin
+  {
+      font-size: 16px;
+      margin-top: 12px;
+  }
+  .accholdername
+  {
+      font-size: 13px;
+      font-weight: 400;
+      padding-top: 12px;
+  }
+  .calbtn
+  {
+      color:blue;
+      padding: 10px 20px;
+      font-size:14px;
+      border:1px solid black;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) { 
+      .card
+      {
+          min-height: 279px;
+      }
+      .aircon
+      {
+          font-size:10px;
+      }
+   }

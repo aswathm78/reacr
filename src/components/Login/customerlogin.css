@@ -1,0 +1,193 @@
+.login_backimg{
+    background-image: url('../../assets/images/loginbackimg.jpg');
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+    background-size: cover;
+}
+
+.login_content
+{
+    margin-top: 46%;
+    margin-left: 5%;
+   
+}
+.login_heading
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffff;
+}
+.login_subheading
+{
+    font-size: 26px;
+    
+    color: #ffff;
+}
+.login_loan
+{
+    margin-top:15px;
+    color:#ffff;
+}
+.logintxt
+{
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cardstyle
+{
+    width:38rem;
+    height:32rem;
+    margin-top:30%;
+    float:right;
+}
+.login_input
+{
+    padding: 15px 20px;
+}
+.login_input input
+{
+    
+    border-radius: 5px!important;
+    width: 92%!important;
+    padding: 0px!important;
+    height: 40px!important;
+    background-color: #e6e6e6;
+    
+
+}
+.login_radiobtn
+{
+    padding: 15px 20px;
+    display: flex;
+    justify-content:space-around
+    
+}
+.login_radiobtn label
+{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal!important;
+    margin-right: 21px;
+    font-size: 15px;
+}
+.login_radiobtn a 
+{
+    color:black!important;
+}
+.customerotp_radiobtn a
+{
+    color: black!important;
+}
+.next_btnstyle
+{
+    padding: 8px 74px;
+    background-color: #3f7eff;
+    color: #ffff;
+    
+    outline: none!important;
+}
+.login_nextbtn
+{
+    text-align:center;
+}
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	
+	margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 8px;
+}
+
+
+/*---------------------------------------------------------- customerpwdstyle------------------------------------------------------------- */
+.customerpwdstyle a:hover, a:focus, .btn-link:hover, .btn-link:focus
+{
+    color:black!important;
+}
+.customerpwd_nextbtn
+{
+    padding: 10px 20px;  
+}
+.customerpwd_btnstyle
+{
+    padding: 8px 135px;
+    background-color: #3f7eff;
+    color: #ffff;
+    
+    outline: none!important;
+}
+.customerpwd_cardstyle
+{
+    width:38rem;
+    height:23rem;
+    margin-top:38%;
+    float:right;
+}
+.customerpwd_forgetpwd
+{
+    padding: 0px 20px;
+    color:#72a0fd;
+    font-size: 12px;
+}
+.customerpwd_forgetpwd a {
+    color:#72a0fd!important;
+}
+.pwd_input input
+{
+    border-radius: 0px!important;
+    width: 92%!important;
+    padding: 12px!important;
+    height: 35px!important;
+    background-color: #e6e6e6;
+    font-weight: bold;
+    font-size:10px
+}
+.pwd_input
+{
+    padding: 15px 20px;
+}
+.customerotp_radiobtn
+{
+    display:flex;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+.customerotp_radiobtn label
+{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal!important;
+    margin-right: 21px;
+    font-size: 15px;
+}
+.customerotp_nextbtn
+{
+    padding: 10px 20px;  
+}
+.customerotp_btnstyle
+{
+    padding: 8px 135px;
+    background-color: #3f7eff;
+    color: #ffff;
+    
+    outline: none!important;
+}
+.login_socialmediabtn
+{
+    display:flex;
+    justify-content: space-around;
+}

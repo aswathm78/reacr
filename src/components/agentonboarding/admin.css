@@ -1,0 +1,786 @@
+.signin-inputstyle {
+  border-radius: 8px !important;
+  height: 43px !important;
+  background-color: #e6e6e6 !important;
+  padding: 0px 33px !important;
+}
+.mobile-signin-inputstyle {
+  border-radius: 8px !important;
+  height: 43px !important;
+  background-color: #e6e6e6 !important;
+  padding: 0px 33px !important;
+}
+.formstyling .form-group {
+  margin: 5% 10%;
+}
+.formstyling .form-control:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+.searchText {
+  float: right;
+  background-color: #f1f0f0 !important;
+}
+
+.searchText input {
+  background-color: #f1f0f0 !important;
+  border: 0px solid #f1f0f0;
+  border-radius: 0px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+}
+.signup-btn {
+  padding: 4px;
+  width: 30%;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 5px;
+  outline-style: none !important;
+  margin-top: 7%;
+}
+.currencyinput {
+  border: 1px inset #ccc;
+}
+.currencyinput input {
+  border: 0;
+}
+.signup-btn-style {
+  text-align: center;
+  padding: 0px;
+}
+.singup-alreadtmember {
+  text-align: center;
+  font-size: 14px;
+  /* margin-left: 33%; */
+}
+.currencyinput {
+  border: 1px inset #ccc;
+}
+.currencyinput input {
+  border: 0;
+}
+.signup-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-top: 25px !important;
+}
+.signbackground-img {
+  background-image: url('../../assets/images/loginbackimg.jpg');
+
+  height: 100vh;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.responsiveTbl {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.jarir {
+  background-image: url('../../assets/images/JARIR.png');
+  height: 70px;
+  width: 500px;
+  margin: 10px;
+  z-index: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stc {
+  background-image: url('../../assets/images/STC.png');
+  height: 70px;
+  width: 500px;
+  margin: 10px;
+  z-index: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar_white_right {
+  filter: drop-shadow(9px 9px 9px rgba(0, 0, 0, 0.161));
+  position: relative;
+  overflow: visible;
+  width: 67vw;
+  min-height: 46vh;
+  height: 70vh;
+  left: 0px;
+  right: 0px;
+  top: 9rem;
+  background-color: white;
+  border-radius: 1rem 1rem 1rem 1rem;
+  float: right;
+  padding-right: 0vw !important;
+  margin-right: 0vh !important;
+}
+/* .dfs-otpverify input:focus ~ .floating-label,
+  .dfs-otpverify input:not(:focus):valid ~ .floating-label{
+    top: 63px;
+    bottom: 10px;
+    left: 60px;
+    font-size: 11px;
+    border:none!important;
+  }
+  
+  .inputText {
+    font-size: 14px;
+    width: 80%;
+    height: 40px;
+    border-radius:8px;
+    
+    border: none;
+    background-color: lightgray;
+    
+  }
+  
+  .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 80px;
+    top: 68px;
+    transition: 0.2s ease all;
+    
+  
+  }
+  
+  .dfs-otpverify input:focus ~ .floating-label,
+  .dfs-otpverify input:not(:focus):valid ~ .floating-label{
+    top: 40px;
+    bottom: 10px;
+    left: 120px;
+    font-size: 11px;
+    border:none!important;
+  }
+  
+  .inputText {
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    border-radius:8px;
+    
+    border: none;
+    background-color: lightgray;
+    
+  }
+  
+  .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 102px;
+    top: 46px;
+    transition: 0.2s ease all;
+    
+  
+  }
+  .dfs-otpverify input 
+  {
+      border: 1px solid #ccc!important;
+      border-radius:10px!important;
+      height: 50px!important;
+  }
+  .dfs-otpverify 
+  {
+      margin: 2% 18%;
+  } */
+.sign-resendotp a {
+  text-align: center;
+  margin-left: 0px;
+  font-size: 12px;
+  color: #206fb7 !important;
+}
+.input-icons i {
+  position: absolute;
+  margin-top: 12px !important;
+  padding-left: 12px;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.allproductcls {
+  display: flex;
+}
+.allproductcls ul {
+  color: #fff;
+  padding: 10px 25px;
+}
+.signupcardstyling {
+  margin-left: 16%;
+  margin-right: 9%;
+  margin-top: 29%;
+  background-color: #f7f7f7 !important;
+}
+
+.login_input_drop {
+  border-radius: 5px !important;
+  width: 82% !important;
+  padding: 0.7rem !important;
+  border: 1px solid #838383 !important  ;
+  height: 40px !important;
+  margin-left: 2rem !important;
+  margin-top: 15px;
+  /* text-align: right; */
+  background-color: #e6e6e6 !important;
+  background: #e6e6e6 !important;
+}
+select {
+  background: #e6e6e6;
+}
+
+.mobile-label {
+  margin-left: 31px !important;
+}
+.email-label {
+  margin-left: 31px !important;
+}
+.verification_heading {
+  padding: 20px 20px;
+  font-weight: bold;
+}
+.text-or {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin: 10% 17%;
+}
+
+.text-or span {
+  background-color: #fff;
+  padding: 0 10px;
+}
+.sign-resendotp button {
+  display: none !important;
+}
+.otp-comp {
+  margin-left: 25px !important;
+}
+/* .resend {
+  display: none !important;
+} */
+.maalme-heading h3 {
+  color: #ffff;
+  font-weight: bold;
+}
+.allproductcls div {
+  color: #ffff;
+  padding: 10px;
+  font-size: 20px;
+}
+.dfs-getstarted {
+  padding: 8px;
+  width: 50%;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 5px;
+  outline-style: none !important;
+  font-size: 14px;
+  text-align: center;
+
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.dfs-name {
+  font-size: 16px;
+  padding: 15px;
+}
+.dfs-nametxt {
+  font-size: 16px;
+  padding: 10px;
+}
+.dfs-maalemteam {
+  font-size: 16px;
+  padding: 15px;
+}
+.dfs-cong {
+  font-size: 16px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .formstyling .form-group {
+    margin: 2% 4% !important;
+  }
+  .signupcardstyling {
+    margin-left: 5% !important;
+    margin-right: 4% !important;
+  }
+}
+@media (max-width: 320) {
+  .signupcardstyling {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+}
+.text-danger {
+  font-size: 12px !important;
+}
+
+.login_backimg {
+  background-image: url('../../assets/images/loginbackimg.jpg');
+  background-repeat: no-repeat;
+  float: left;
+  width: 100%;
+  background-size: cover;
+}
+
+.login_content {
+  margin-top: 46%;
+  margin-left: 5%;
+}
+.login_heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffff;
+}
+.login_subheading {
+  font-size: 26px;
+
+  color: #ffff;
+}
+.login_loan {
+  margin-top: 15px;
+  color: #ffff;
+}
+.logintxt {
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cardstyle {
+  width: 38rem;
+  height: 40rem;
+  border-radius: 10px;
+  margin-top: 20%;
+  float: right;
+}
+.login_input {
+  padding: 15px 20px;
+}
+.login_input input {
+  border-radius: 5px !important;
+  width: 92% !important;
+  padding: 0.7rem !important;
+  height: 40px !important;
+  background-color: #e6e6e6;
+}
+.login_radiobtn {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.login_radiobtn label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: normal !important;
+  margin-right: 21px;
+  font-size: 15px;
+}
+.login_radiobtn a {
+  color: black !important;
+}
+.customerotp_radiobtn a {
+  color: black !important;
+}
+.next_btnstyle {
+  padding: 8px 74px;
+  background-color: #3f7eff;
+  color: #ffff;
+
+  outline: none !important;
+}
+.login_nextbtn {
+  text-align: center;
+}
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+
+  margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: '';
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+/*---------------------------------------------------------- customerpwdstyle------------------------------------------------------------- */
+.customerpwdstyle a:hover,
+a:focus,
+.btn-link:hover,
+.btn-link:focus {
+  color: black !important;
+}
+.customerpwd_nextbtn {
+  padding: 10px 20px;
+}
+.customerpwd_btnstyle {
+  padding: 8px 135px;
+  background-color: #3f7eff;
+  color: #ffff;
+
+  outline: none !important;
+}
+.customerpwd_cardstyle {
+  width: 38rem;
+  height: 23rem;
+  margin-top: 38%;
+  float: right;
+}
+.customerpwd_forgetpwd {
+  padding: 0px 20px;
+  color: #72a0fd;
+  font-size: 12px;
+}
+.customerpwd_forgetpwd a {
+  color: #72a0fd !important;
+  float: right;
+}
+.pwd_input input {
+  border-radius: 0px !important;
+  width: 92% !important;
+  padding: 12px !important;
+  height: 35px !important;
+  background-color: #e6e6e6;
+  font-weight: bold;
+  font-size: 10px;
+}
+.pwd_input {
+  padding: 0px 20px;
+}
+.customerotp_radiobtn {
+  display: flex;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.customerotp_radiobtn label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: normal !important;
+  margin-right: 21px;
+  font-size: 15px;
+}
+.customerotp_nextbtn {
+  padding: 10px 20px;
+}
+.customerotp_btnstyle {
+  padding: 8px 135px;
+  background-color: #3f7eff;
+  color: #ffff;
+
+  outline: none !important;
+}
+.login_socialmediabtn {
+  display: flex;
+  justify-content: space-around;
+}
+.ninnumberradiobtnstyle label {
+  display: flex;
+  font-size: 14px;
+  margin-left: 47px;
+  font-weight: normal;
+}
+.ninnumberradiobtnstyle input[type='radio'] {
+  margin-right: 10px !important;
+}
+
+.verficationcardstyle {
+  height: '80vh';
+  border-radius: '10px';
+  margin-top: '0px';
+  width: '35rem';
+  margin-right: '0px !important';
+}
+.agentdetailsheading {
+  font-weight: bold;
+  font-size: 14px;
+}
+.agent-lablestyle.shadow {
+  background-color: #838383;
+}
+.agent-lablestyle.shadow input {
+  background-color: #838383;
+}
+.shadow {
+  background-color: #838383;
+}
+.agent-lablestyle label {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 600 !important;
+  /* padding-right: 40px; */
+  
+}
+/* input {
+  text-align: right !important;
+} */
+/*  .agent-lablestyle input {
+    width: 100% !important;
+    padding: 0px 2px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px !important;
+    height: 26px !important;
+    
+  } */
+.agentdetailsleftside {
+  background-color: #ffff;
+  margin: 20px 50px;
+  border: 1px solid #ccc;
+}
+.agent-empdetails {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  /* margin-top: 10% !important; */
+  margin-bottom: 4%;
+}
+
+.agent-financialdetails {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  margin-top: 2% !important;
+  margin-bottom: 2%;
+}
+
+.agent-lablestyle select {
+  all: unset;
+  border: 2px solid #24c1e8;
+  background: url(../../assets/images/selectdropdown-blue.png) no-repeat 95%;
+  background-size: 16px;
+  font-size: 14px;
+  width: calc(100%);
+  /* width: calc(100% - 40px); */
+  height: 3.5rem !important;
+  line-height: 30px;
+  /* text-align: right !important; */
+  
+  border-radius: 4px !important;
+  padding-right: 5rem;
+  box-sizing: border-box;
+}
+.agent-saveandcontinuestyle {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  float: left;
+  width: 100%;
+}
+.agent-savebtn {
+  padding: 10px 20px;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 2px !important;
+}
+.agent-backbtn {
+  margin-right: 70%;
+  padding: 10px 20px;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 10px !important;
+}
+input[type='date'] {
+  background-color: #f1f0f0 !important;
+}
+input[type='number'] {
+  background-color: #ffffff !important;
+}
+input[type='text'] {
+  background-color: #ffffff !important;
+}
+.agent-assetdetails {
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 2% !important;
+  margin-bottom: 2%;
+}
+.asset-savebtn {
+  padding: 8px 10px;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 10px !important;
+}
+.asset-addmoreasset {
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+.asset-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.asset-table table td,
+th {
+  border: none !important;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.asset-table table tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+.asset-table table tr:nth-child(add) {
+  background-color: #ffff !important;
+}
+.asset-table table th {
+  background-color: darkslategrey;
+  color: #ffff;
+}
+.agent-submitbtn {
+  float: right;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.agent-submitbuttonstyle {
+  padding: 8px 40px;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 10px !important;
+  font-size: 14px;
+}
+.agent-loan-details {
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 5%;
+  font-weight: bold;
+}
+.agent-allbtns {
+  float: left;
+  width: 100%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.outer {
+  width: 100%;
+  text-align: center;
+}
+.inner {
+  display: inline-block;
+}
+
+.agent-allbtns1 {
+  width: 100%;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+.agent-savebtn-accept {
+  padding: 8px 30px;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 10px !important;
+  margin: 0px 1%;
+}
+.agent-savebtn-reject {
+  padding: 8px 60px;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 10px !important;
+  margin: 0px 1%;
+}
+.agent-savebtn-Appeal {
+  padding: 8px 60px;
+  background-color: #206fb7;
+  color: #ffff;
+  border-radius: 10px !important;
+  margin: 0px 1%;
+}
+.agent-dropimage {
+  background-image: url('../../assets/images/loanoffer.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.browsertxt {
+  padding: 25%;
+  width: 100%;
+}
+.agent-pdf-text {
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8%;
+}
+.agent-loanofferheading {
+  text-align: center;
+  font-size: 22px;
+}
+.agent-cancelsubmit {
+  margin-right: 2%;
+}
+.agent-reject-details {
+  text-align: center;
+  width: 100%;
+  margin: 5%;
+  font-weight: bold;
+}
+
+.breadcrumb .breadcrumb-active {
+  background-color: #dee4eb;
+  font-weight: 300;
+  width: fit-content;
+  color: rgb(12, 11, 11);
+  text-decoration: none;
+  padding: 10px 10px 10px 45px;
+}
+
+.breadcrumb .breadcrumb-active a {
+  background-color: #dee4eb;
+  font-weight: 300;
+  width: fit-content;
+  color: rgb(27, 26, 26);
+  text-decoration: none;
+  padding: 10px 10px 10px 45px;
+}
+
+.breadcrumb {
+  list-style: none;
+  font: 18px Sans-Serif;
+  border-radius: 10px;
+}
+
+.breadcrumb .breadcrumb {
+  background-color: #dee4eb;
+  font-weight: 300;
+  width: fit-content;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px 10px 45px;
+}

@@ -1,0 +1,320 @@
+.bank_paymentheading
+{
+    padding:15px 29px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+.bankpadding
+{
+    width: 75vw;
+    padding:30px;
+}
+.bank_debitbank label{
+    font-size: 14px;
+    font-weight: normal!important;
+    display:flex;
+    padding: 12px 25px;
+}
+.bank_debitbank input
+{
+    margin-right:5%;
+   
+}
+.bank_cvv input{
+    
+    width: 109px;
+    padding-left: 2px;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0px;
+    background: #fff;
+    height:35px!important;
+}
+.bank_cvv
+{
+    margin-left: 8%;
+    display:flex;
+}
+.cvv_submit
+{
+    
+    background-color: #004c90;
+    color: #ffff;
+    border: none;
+    padding: 0px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 2px;
+    cursor: pointer;
+     border-radius:5px;
+    outline: none!important;
+    margin-left: 42px;
+}
+.bank_upidetail label{
+    font-size: 14px;
+    font-weight: normal!important;
+    display:flex;
+    padding: 16px 25px;
+   
+}
+.bank_upidetail 
+{
+    border-bottom: 1px solid #ccc;
+}
+
+.bank_upidetail input
+{
+    margin-right:5%;
+   
+   
+}
+.upicard
+{
+    margin-top: 10%;
+}
+.upi_option
+{
+    margin-left: 8%;
+    font-size: 10px;
+}
+.upi_option label
+{
+    font-size: 11px;
+    font-weight: normal!important;
+    display:flex;
+    padding: 0px 0px;
+   
+}
+.upi_option input
+{
+    margin-right: 8px;
+    padding-top: 10px;
+}
+
+.backgroundstyling
+{
+    background-image: url('../../assets/images/bankdetail.jpg');
+    padding:5% 0%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.creditcard input
+{
+      
+    /* width: 202px;
+    padding-left: 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    height:35px!important; */
+}
+.cardenterfield
+{
+    display:flex;
+    margin-left: 8%;
+}
+.creadit_cvv
+{
+    margin-left: 1%;
+}
+.creadit_cvv input
+{
+    width: 109px;
+    padding-left: 20px;
+    /* border: 2px solid #ccc; */
+    border-radius: 0px!important;
+    
+    height:35px!important;
+    border-bottom: 1px solid #ccc!important;
+    border:none;
+}
+
+
+.user-input-wrp {
+	position: relative;
+    width: 20%;
+    font-size: 12px;
+}
+.user-input-wrp .inputText{
+
+	outline: none!important;
+	border:none !important;
+	border-bottom: 1px solid #ccc !important;
+     box-shadow: none !important;
+     border:none;
+     border-radius: 0px;
+     width: 76%;
+     padding:0px !important;
+     height: 36px;
+     margin-bottom:0px;
+     font-size: 12px;
+     border-bottom: 1px solid;
+}
+.user-input-wrp .inputText:focus{
+	border-color: blue;
+	border-width: medium medium 2px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 18px;
+	left: 10px;
+	transition: 0.2s ease all;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 0px;
+	left: 10px;
+	font-size: 8px;
+	opacity: 1;
+}
+.carddetails_submit
+{
+    background-color: #004c90;
+    color: #ffff;
+    border: none;
+    padding: 9px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 2px;
+    cursor: pointer;
+     border-radius:5px;
+    outline: none!important;
+    margin-left: 42px;
+}
+.carddetailsdate input
+{
+  border: 1px solid #ccc;
+  
+}
+.carddetailsdate 
+{
+    padding-top: 12px;
+}
+.creditcard_info
+{
+    font-size:10px;
+    margin-left: 8%;
+}
+.popover
+{
+    max-width: 536px!important;
+
+}
+.carddetailsdate input 
+{
+    font-size: 12px;
+}
+
+
+/* ----------------------------------------------------radio buttons -------------------*/
+.bank_debitbank  input[type='radio'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid blue;
+}
+.bank_upidetail input[type='radio'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid blue;
+}
+
+
+.bank_debitbank  input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+.bank_upidetail input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+
+.bank_debitbank  input[type="radio"]:checked:before {
+    background:blue;
+    
+}
+.bank_upidetail input[type="radio"]:checked:before {
+    background:blue;
+}
+
+
+/* input[type="radio"]:checked {
+  border-color:green;
+} */
+
+.bank_debitbank .role {
+    margin-right: 80px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.bank_upidetail .role { 
+    margin-right: 80px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.bank_debitbank  .checkbox label {
+    margin-bottom: 20px !important;
+}
+
+.bank_upidetail .checkbox label {
+    margin-bottom: 20px !important;
+}
+
+
+.bank_debitbank  .roles {
+    margin-bottom: 40px;
+}
+.bank_upidetail .roles {
+    margin-bottom: 40px;
+}
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    outline:none!important; 
+    outline:none!important;
+     outline-offset: none!important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .bankpadding
+    {
+        width: 100vw;
+    }
+    .cvv_submit {
+     
+        margin-left: 8px;
+    }
+    .backgroundstyling h2 
+    {
+        margin-top:20px!important;
+    }
+}
+
+@media (min-width:768)
+{
+    .bank_cvv input {
+        margin-left:25%!important;
+    }
+}

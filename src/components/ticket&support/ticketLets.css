@@ -1,0 +1,119 @@
+.ticketlets_heading
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.letconnectpadding
+{
+    width:75vw; 
+    
+}
+.ticket_fields input
+{
+    border:none;
+    border-radius: 0px;
+    width: 42%;
+    padding: 0px !important;
+    height: 40px;
+    margin-bottom:0px;
+    font-size: 14px;
+    border-bottom: 1px solid;
+}
+
+.ticket_fields
+{
+    padding-top: 2%;
+}
+
+
+.ticket_txt textarea
+{
+    /* padding-top: 2% 8%; */
+    border:1px solid;
+    width: 43%;
+    height: 127px;
+}
+
+.ticket_txt
+{
+    padding-top: 2%;
+    
+}
+.commenttxt
+{
+    float: left;
+    width:64%;
+    font-size:14px;
+}
+.maxtxt
+{
+    float: left;
+    width:71%;
+    font-size:12px;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.custom-file-upload input[type="file"]
+{
+    display:none;
+}
+.fileupload
+{
+    float: left;
+    margin-left: 28%;
+    padding-top: 10px;
+    display:flex;
+    
+}
+.fileuploadmax
+{
+    display:flex;
+    float: left;
+}
+.letsbtn
+{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .ticketlets_heading {
+      
+        font-size: 12px !important;
+        margin-top: 25px !important;
+    }
+    .ticket_fields input {
+        width: 100%;
+    }
+    .ticket_txt textarea {
+    
+        width: 100%;
+        
+    }
+    .fileupload
+    {
+        margin-left: 0px!important;
+    }
+    .letsbtn
+    {
+        margin-bottom: 25px!important;
+    }
+    .commenttxt
+    {
+        width: 0% !important;
+    }
+}
+  
+
+.custom-border{
+    background-color: white;
+    border-top: .2rem solid rgba(0, 0, 0, .3)!important;
+    box-shadow: 1px 1px 3px 1px gray;
+    /* margin:2rem 0 ; */
+}

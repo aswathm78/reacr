@@ -1,0 +1,13 @@
+.menu-list .MuiSvgIcon-root{
+    font-size: 3rem !important;
+    font-size: 3rem !important;
+    margin: 0 2rem !important;
+    
+}
+.menu-list .MuiSvgIcon-root.active{
+    color:green!important;
+   
+}
+.menu-list h6 {
+    display: flex;
+}

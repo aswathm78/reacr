@@ -1,0 +1,179 @@
+.feedbackheading
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 22px 0px;
+}
+.feedbackpadding
+{
+     width:75vw; 
+     padding: 30px;
+}
+.fd_cardstyle
+{
+    /* margin: 0px 65px; */
+    /* border: 1px solid; */
+    border-radius: 30px;
+}
+.fb_title
+{
+    font-size:18px;
+    border-bottom: 1px solid;
+    text-align: center;
+    padding: 1% 20%;
+
+}
+.fb_radiobtn
+{
+    display:flex;
+    justify-content: space-around;  
+}
+.fb_type
+{
+    padding:2% 8%;
+
+}
+.textdescription
+{
+    border: 1px solid;
+}
+.fb_description
+{
+    padding: 2% 8%;
+}
+
+.fb_input input
+{
+    border:none;
+    border-radius: 0px;
+    width: 41%;
+    padding: 0px !important;
+    height: 25px;
+    margin-bottom:0px;
+    font-size: 14px;
+    border-bottom: 1px solid;
+    
+}
+.fb_usr
+{
+    font-size:14px;
+    color: #ccc;
+
+}
+.fb_fields
+{
+    padding-left: 8%;
+}
+.fb_email input
+{
+    border:none;
+    border-radius: 0px;
+    width: 41%;
+    padding:0px !important;
+    height: 25px;
+    margin-bottom:0px;
+    font-size: 14px;
+    border-bottom: 1px solid;
+}
+.fb_submit
+{
+    text-align: center;
+}
+.fb_description .form-control
+{
+    width:80% !important;
+}
+.fb_fields label
+{
+    font-weight: normal!important;
+    margin-top: 2%;
+}
+.fb_btn
+{
+    padding: 5px 59px;
+    background-color: #004c90;
+    color: #ffff;
+     border-radius:5px;
+    outline: none!important;
+}
+.fb_submit
+{
+    padding:4% 0%;
+
+}
+.dfs-feedback input {
+    width: 70%!important;
+    padding: 0px 2px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px!important;
+    height: 19px!important;
+    margin-top: 6%;
+}
+
+/*------------------------ media query ------------------------------*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .feedbackpadding 
+    {
+        width: 90vw;
+        margin-top: 8%;
+    }
+    .fb_title {
+        font-size: 18px;
+        border-bottom: 1px solid;
+        text-align: center;
+        padding: 1% 3%;
+    }
+    .fb_type {
+        padding: 5% 8%;
+    }
+    .fb_radiobtn {
+       
+        margin:0% 8%!important;
+        display:block!important;
+    }
+    
+        .fb_radiobtn  .radio-inline, .checkbox-inline {
+            position: relative;
+            display: inline-block;
+            padding-left: 20px;
+            margin-bottom: 0;
+            font-weight: normal;
+            vertical-align: middle;
+            cursor: pointer;
+            margin-left: 4%;
+        
+    }
+    .dfs-feedback input {
+        width: 100%!important;
+        padding: 0px 2px;
+        margin: 0px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0px!important;
+        height: 19px!important;
+        margin-top: 6%;
+    }
+    .fb_title {
+        font-size: 14px!important;
+    }
+  }
+  @media (max-width: 768px) {
+    .feedbackpadding {
+        width: 93vw;
+        padding: 30px;
+    }
+  }
+  
+.custom-border{
+    background-color: white;
+    border-top: .2rem solid rgba(0, 0, 0, .3)!important;
+    box-shadow: 1px 1px 3px 1px gray;
+    /* margin:2rem 0 ; */
+}

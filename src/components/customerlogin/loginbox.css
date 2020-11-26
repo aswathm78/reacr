@@ -1,0 +1,6 @@
+.custom-border{
+    background-color: white;
+    border-top: .2rem solid rgba(0, 0, 0, .3)!important;
+    box-shadow: 1px 1px 3px 1px gray;
+    
+}

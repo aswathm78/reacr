@@ -1,0 +1,65 @@
+.dfs-ourproduct {
+  padding: 10px 0px;
+  border-radius: 21px;
+  border: 1px solid black;
+  background-color: #ffffff;
+}
+.dfs-activeloan {
+  padding: 10px 0px;
+  border-radius: 21px;
+  border: 1px solid black;
+  background-color: #ffffff;
+}
+.dfs-norecord {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+.dfs-welcomeprofile {
+  text-align: center;
+  padding: 30px 0px;
+}
+.our-productheading {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ourproductarrowstyle {
+  display: flex;
+  /* border-bottom: 1px solid black; */
+  border-bottom: 1px solid black;
+}
+.d-downarrowstyle {
+  position: absolute;
+  left: 80%;
+}
+.activearrowstyle {
+  display: flex;
+}
+.cardstyleboxshadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.dfs-h-padding {
+  padding: 10px 0px;
+  border: 1px solid #cccc;
+
+  margin-left: 8%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+.agent-lablestyle select {
+  all: unset;
+  border: 2px solid #24c1e8;
+  background: url(/static/media/selectdropdown-blue.bb915eca.png) no-repeat 95%;
+  background-size: 16px;
+  font-size: 14px;
+  width: calc(100%);
+  /* width: calc(100% - 40px); */
+  height: 3.5rem !important;
+  line-height: 30px;
+  /* text-align: right !important;
+  direction: rtl; */
+  border-radius: 4px !important;
+  padding-right: 5rem;
+  box-sizing: border-box;
+}
